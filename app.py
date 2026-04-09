@@ -52,7 +52,7 @@ h1, h2, h3 { font-family: 'Barlow Condensed', sans-serif; letter-spacing: 0.03em
 with st.sidebar:
     st.markdown("## Brasileirao\n### Analytics")
     st.markdown("---")
-    anos_disp = [2021, 2022, 2023, 2024, 2025]
+    anos_disp = [2021, 2022, 2023, 2024]
     ano = st.selectbox("Temporada", anos_disp, index=3)
 
     max_rodada = int(query(f"SELECT MAX(rodada) FROM jogos WHERE ano={ano}").iloc[0,0])
@@ -78,7 +78,7 @@ def get_tabela(ano, rodada):
 tabela = get_tabela(ano, rodada)
 
 st.markdown(f"# Classificacao — Brasileirao {ano}")
-st.caption(f"Rodada {rodada} de {max_rodada}" + (" · Temporada em andamento" if ano == 2025 else ""))
+st.caption(f"Rodada {rodada} de {max_rodada}" + (""))
 
 lider    = tabela.iloc[0]
 mais_gol = tabela.loc[tabela["GP"].idxmax()]
