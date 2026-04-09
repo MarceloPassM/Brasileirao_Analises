@@ -1,0 +1,1641 @@
+jogo_id,ano,rodada,mandante,visitante,gols_mandante,gols_visitante,resultado
+1,2021,1,Juventude,Grêmio,1,1,Empate
+2,2021,1,Grêmio,Sport,1,0,V. Mandante
+3,2021,1,Palmeiras,Chapecoense,1,0,V. Mandante
+4,2021,1,Fluminense,Grêmio,2,1,V. Mandante
+5,2021,1,Palmeiras,Santos,2,0,V. Mandante
+6,2021,1,Atlético-MG,Sport,5,0,V. Mandante
+7,2021,1,Atlético-MG,Internacional,2,0,V. Mandante
+8,2021,1,Atlético-MG,Bahia,0,3,V. Visitante
+9,2021,1,Santos,Sport,0,0,Empate
+10,2021,1,Athletico-PR,Santos,1,2,V. Visitante
+11,2021,2,Palmeiras,Bahia,4,0,V. Mandante
+12,2021,2,RB Bragantino,Sport,2,0,V. Mandante
+13,2021,2,Atlético-MG,Chapecoense,0,0,Empate
+14,2021,2,São Paulo,Grêmio,3,1,V. Mandante
+15,2021,2,RB Bragantino,Palmeiras,0,1,V. Visitante
+16,2021,2,América-MG,Sport,2,0,V. Mandante
+17,2021,2,Palmeiras,São Paulo,4,0,V. Mandante
+18,2021,2,Fluminense,Sport,1,2,V. Visitante
+19,2021,2,Fluminense,Palmeiras,2,2,Empate
+20,2021,2,Fortaleza,Athletico-PR,3,0,V. Mandante
+21,2021,3,Flamengo,Ceará,0,0,Empate
+22,2021,3,Flamengo,América-MG,1,0,V. Mandante
+23,2021,3,Cuiabá,Ceará,1,1,Empate
+24,2021,3,RB Bragantino,Botafogo,0,1,V. Visitante
+25,2021,3,Fluminense,Botafogo,3,0,V. Mandante
+26,2021,3,Athletico-PR,São Paulo,4,1,V. Mandante
+27,2021,3,América-MG,Chapecoense,4,0,V. Mandante
+28,2021,3,Flamengo,Fortaleza,4,1,V. Mandante
+29,2021,3,Fortaleza,Cuiabá,1,0,V. Mandante
+30,2021,3,Corinthians,Internacional,4,0,V. Mandante
+31,2021,4,São Paulo,Chapecoense,1,2,V. Visitante
+32,2021,4,Fluminense,Bahia,0,1,V. Visitante
+33,2021,4,Atlético-MG,Palmeiras,3,0,V. Mandante
+34,2021,4,Athletico-PR,Bahia,0,1,V. Visitante
+35,2021,4,Ceará,Juventude,0,0,Empate
+36,2021,4,São Paulo,Juventude,1,2,V. Visitante
+37,2021,4,Corinthians,Ceará,0,1,V. Visitante
+38,2021,4,América-MG,Athletico-PR,4,1,V. Mandante
+39,2021,4,Fortaleza,Bahia,4,1,V. Mandante
+40,2021,4,Flamengo,Botafogo,1,0,V. Mandante
+41,2021,5,América-MG,Juventude,0,2,V. Visitante
+42,2021,5,Fluminense,Internacional,2,1,V. Mandante
+43,2021,5,Cuiabá,Chapecoense,1,1,Empate
+44,2021,5,Corinthians,Cuiabá,3,2,V. Mandante
+45,2021,5,Fluminense,Chapecoense,3,1,V. Mandante
+46,2021,5,Flamengo,São Paulo,0,0,Empate
+47,2021,5,Athletico-PR,Ceará,4,0,V. Mandante
+48,2021,5,Internacional,Botafogo,1,1,Empate
+49,2021,5,São Paulo,Sport,4,2,V. Mandante
+50,2021,5,Flamengo,Juventude,7,0,V. Mandante
+51,2021,6,Internacional,Chapecoense,0,0,Empate
+52,2021,6,Atlético-MG,Ceará,3,1,V. Mandante
+53,2021,6,Fortaleza,América-MG,3,0,V. Mandante
+54,2021,6,Juventude,Botafogo,0,4,V. Visitante
+55,2021,6,Fluminense,RB Bragantino,3,1,V. Mandante
+56,2021,6,RB Bragantino,Chapecoense,2,1,V. Mandante
+57,2021,6,RB Bragantino,Juventude,1,1,Empate
+58,2021,6,Flamengo,Santos,4,1,V. Mandante
+59,2021,6,Fortaleza,Corinthians,0,0,Empate
+60,2021,6,América-MG,Ceará,3,0,V. Mandante
+61,2021,7,Cuiabá,Juventude,0,0,Empate
+62,2021,7,Athletico-PR,Botafogo,2,1,V. Mandante
+63,2021,7,Sport,Botafogo,2,3,V. Visitante
+64,2021,7,Santos,Juventude,2,2,Empate
+65,2021,7,Atlético-MG,Fluminense,2,0,V. Mandante
+66,2021,7,Fortaleza,São Paulo,0,0,Empate
+67,2021,7,RB Bragantino,Bahia,0,0,Empate
+68,2021,7,Santos,Grêmio,1,0,V. Mandante
+69,2021,7,América-MG,Botafogo,3,0,V. Mandante
+70,2021,7,Flamengo,Chapecoense,0,0,Empate
+71,2021,8,Santos,Ceará,1,0,V. Mandante
+72,2021,8,Flamengo,RB Bragantino,1,0,V. Mandante
+73,2021,8,América-MG,Cuiabá,1,1,Empate
+74,2021,8,Corinthians,Bahia,2,2,Empate
+75,2021,8,Grêmio,Bahia,0,2,V. Visitante
+76,2021,8,Atlético-MG,São Paulo,1,1,Empate
+77,2021,8,América-MG,Santos,1,1,Empate
+78,2021,8,Internacional,Sport,1,1,Empate
+79,2021,8,Atlético-MG,América-MG,1,1,Empate
+80,2021,8,Flamengo,Internacional,1,1,Empate
+81,2021,9,Palmeiras,Athletico-PR,1,1,Empate
+82,2021,9,Atlético-MG,RB Bragantino,5,2,V. Mandante
+83,2021,9,Flamengo,Grêmio,1,0,V. Mandante
+84,2021,9,Palmeiras,Sport,3,2,V. Mandante
+85,2021,9,Santos,Cuiabá,0,0,Empate
+86,2021,9,RB Bragantino,Cuiabá,1,0,V. Mandante
+87,2021,9,Santos,Internacional,1,1,Empate
+88,2021,9,Atlético-MG,Cuiabá,3,0,V. Mandante
+89,2021,9,Athletico-PR,Internacional,3,0,V. Mandante
+90,2021,9,Athletico-PR,Cuiabá,3,0,V. Mandante
+91,2021,10,Santos,São Paulo,1,0,V. Mandante
+92,2021,10,Atlético-MG,Flamengo,2,0,V. Mandante
+93,2021,10,Ceará,Grêmio,1,1,Empate
+94,2021,10,Santos,Chapecoense,2,0,V. Mandante
+95,2021,10,Corinthians,RB Bragantino,0,0,Empate
+96,2021,10,Grêmio,Botafogo,2,0,V. Mandante
+97,2021,10,Fluminense,Juventude,3,0,V. Mandante
+98,2021,10,Fortaleza,Internacional,4,2,V. Mandante
+99,2021,10,América-MG,Internacional,0,3,V. Visitante
+100,2021,10,Flamengo,Cuiabá,2,0,V. Mandante
+101,2021,11,Fortaleza,Palmeiras,3,3,Empate
+102,2021,11,Internacional,São Paulo,1,0,V. Mandante
+103,2021,11,Internacional,Ceará,2,1,V. Mandante
+104,2021,11,Flamengo,Athletico-PR,3,2,V. Mandante
+105,2021,11,Flamengo,Palmeiras,1,4,V. Visitante
+106,2021,11,Santos,Bahia,1,1,Empate
+107,2021,11,Corinthians,Sport,3,1,V. Mandante
+108,2021,11,Corinthians,Juventude,1,0,V. Mandante
+109,2021,11,Corinthians,Chapecoense,1,0,V. Mandante
+110,2021,11,Fortaleza,RB Bragantino,4,0,V. Mandante
+111,2021,12,América-MG,Grêmio,1,2,V. Visitante
+112,2021,12,RB Bragantino,América-MG,2,1,V. Mandante
+113,2021,12,Corinthians,São Paulo,1,3,V. Visitante
+114,2021,12,Sport,Bahia,2,1,V. Mandante
+115,2021,12,Cuiabá,Bahia,2,1,V. Mandante
+116,2021,12,Fortaleza,Ceará,0,2,V. Visitante
+117,2021,12,RB Bragantino,Grêmio,4,0,V. Mandante
+118,2021,12,Internacional,Cuiabá,2,0,V. Mandante
+119,2021,12,Juventude,Bahia,1,1,Empate
+120,2021,12,Fluminense,Cuiabá,2,0,V. Mandante
+121,2021,13,Corinthians,Athletico-PR,1,0,V. Mandante
+122,2021,13,Flamengo,Sport,3,1,V. Mandante
+123,2021,13,Fortaleza,Santos,0,1,V. Visitante
+124,2021,13,Santos,Botafogo,1,0,V. Mandante
+125,2021,13,Ceará,Botafogo,0,2,V. Visitante
+126,2021,13,Fluminense,São Paulo,0,1,V. Visitante
+127,2021,13,Bahia,Botafogo,1,0,V. Mandante
+128,2021,13,Cuiabá,São Paulo,0,1,V. Visitante
+129,2021,13,Atlético-MG,Corinthians,0,2,V. Visitante
+130,2021,13,Palmeiras,Ceará,2,0,V. Mandante
+131,2021,14,Fortaleza,Chapecoense,1,1,Empate
+132,2021,14,Ceará,Sport,1,0,V. Mandante
+133,2021,14,Internacional,Juventude,0,0,Empate
+134,2021,14,Juventude,Sport,2,0,V. Mandante
+135,2021,14,Fortaleza,Grêmio,1,0,V. Mandante
+136,2021,14,Corinthians,Grêmio,0,1,V. Visitante
+137,2021,14,Flamengo,Bahia,2,0,V. Mandante
+138,2021,14,Atlético-MG,Athletico-PR,5,0,V. Mandante
+139,2021,14,Palmeiras,Botafogo,1,0,V. Mandante
+140,2021,14,RB Bragantino,São Paulo,1,0,V. Mandante
+141,2021,15,Corinthians,Botafogo,3,0,V. Mandante
+142,2021,15,São Paulo,Botafogo,1,1,Empate
+143,2021,15,Ceará,Bahia,2,0,V. Mandante
+144,2021,15,RB Bragantino,Internacional,3,3,Empate
+145,2021,15,Atlético-MG,Santos,1,0,V. Mandante
+146,2021,15,Atlético-MG,Juventude,2,0,V. Mandante
+147,2021,15,Fluminense,Santos,3,0,V. Mandante
+148,2021,15,São Paulo,Ceará,0,1,V. Visitante
+149,2021,15,Athletico-PR,Sport,1,1,Empate
+150,2021,15,Atlético-MG,Botafogo,2,0,V. Mandante
+151,2021,16,Corinthians,América-MG,4,0,V. Mandante
+152,2021,16,São Paulo,Bahia,2,1,V. Mandante
+153,2021,16,Athletico-PR,Chapecoense,0,1,V. Visitante
+154,2021,16,Cuiabá,Sport,1,0,V. Mandante
+155,2021,16,Ceará,Chapecoense,1,1,Empate
+156,2021,16,Fluminense,Ceará,2,2,Empate
+157,2021,16,Fluminense,Corinthians,0,0,Empate
+158,2021,16,Palmeiras,Grêmio,1,1,Empate
+159,2021,16,Fortaleza,Sport,2,0,V. Mandante
+160,2021,16,Sport,Chapecoense,2,0,V. Mandante
+161,2021,17,Fluminense,Athletico-PR,2,1,V. Mandante
+162,2021,17,Fortaleza,Juventude,2,1,V. Mandante
+163,2021,17,RB Bragantino,Santos,2,2,Empate
+164,2021,17,Flamengo,Corinthians,4,1,V. Mandante
+165,2021,17,Fluminense,América-MG,2,2,Empate
+166,2021,17,Cuiabá,Botafogo,2,1,V. Mandante
+167,2021,17,Grêmio,Chapecoense,6,1,V. Mandante
+168,2021,17,Athletico-PR,Juventude,1,0,V. Mandante
+169,2021,17,Fortaleza,Fluminense,0,1,V. Visitante
+170,2021,17,Cuiabá,Grêmio,1,0,V. Mandante
+171,2021,18,Bahia,Chapecoense,2,1,V. Mandante
+172,2021,18,Atlético-MG,Fortaleza,2,1,V. Mandante
+173,2021,18,Fortaleza,Botafogo,5,1,V. Mandante
+174,2021,18,Internacional,Grêmio,4,1,V. Mandante
+175,2021,18,Athletico-PR,Grêmio,1,0,V. Mandante
+176,2021,18,Internacional,Bahia,1,0,V. Mandante
+177,2021,18,Palmeiras,Cuiabá,1,0,V. Mandante
+178,2021,18,Palmeiras,América-MG,3,0,V. Mandante
+179,2021,18,América-MG,São Paulo,2,3,V. Visitante
+180,2021,18,RB Bragantino,Athletico-PR,1,1,Empate
+181,2021,19,Corinthians,Santos,3,0,V. Mandante
+182,2021,19,América-MG,Bahia,0,0,Empate
+183,2021,19,Botafogo,Chapecoense,0,1,V. Visitante
+184,2021,19,Flamengo,Fluminense,0,4,V. Visitante
+185,2021,19,Corinthians,Palmeiras,3,1,V. Mandante
+186,2021,19,Palmeiras,Juventude,1,1,Empate
+187,2021,19,Atlético-MG,Grêmio,0,1,V. Visitante
+188,2021,19,RB Bragantino,Ceará,0,5,V. Visitante
+189,2021,19,Juventude,Chapecoense,0,0,Empate
+190,2021,19,Palmeiras,Internacional,1,2,V. Visitante
+191,2021,20,Chapecoense,Athletico-PR,0,1,V. Visitante
+192,2021,20,Grêmio,Atlético-MG,2,2,Empate
+193,2021,20,RB Bragantino,Atlético-MG,2,7,V. Visitante
+194,2021,20,Sport,São Paulo,2,0,V. Mandante
+195,2021,20,RB Bragantino,Fluminense,2,1,V. Mandante
+196,2021,20,Cuiabá,Internacional,1,0,V. Mandante
+197,2021,20,Corinthians,Fluminense,3,1,V. Mandante
+198,2021,20,Internacional,Palmeiras,2,3,V. Visitante
+199,2021,20,Ceará,Corinthians,3,2,V. Mandante
+200,2021,20,Grêmio,Juventude,2,0,V. Mandante
+201,2021,21,Grêmio,RB Bragantino,1,1,Empate
+202,2021,21,Juventude,Fluminense,1,4,V. Visitante
+203,2021,21,Sport,Flamengo,1,0,V. Mandante
+204,2021,21,Cuiabá,Santos,1,2,V. Visitante
+205,2021,21,Santos,Palmeiras,2,1,V. Mandante
+206,2021,21,Botafogo,Bahia,2,0,V. Mandante
+207,2021,21,Ceará,Atlético-MG,2,1,V. Mandante
+208,2021,21,Internacional,América-MG,2,1,V. Mandante
+209,2021,21,Grêmio,Fortaleza,0,3,V. Visitante
+210,2021,21,Athletico-PR,RB Bragantino,1,1,Empate
+211,2021,22,Sport,Atlético-MG,3,6,V. Visitante
+212,2021,22,Grêmio,Santos,0,3,V. Visitante
+213,2021,22,Sport,Athletico-PR,0,0,Empate
+214,2021,22,Flamengo,Atlético-MG,2,1,V. Mandante
+215,2021,22,Bahia,Corinthians,1,1,Empate
+216,2021,22,Cuiabá,Fluminense,1,0,V. Mandante
+217,2021,22,Athletico-PR,Flamengo,1,1,Empate
+218,2021,22,Grêmio,Internacional,3,1,V. Mandante
+219,2021,22,Internacional,Atlético-MG,2,3,V. Visitante
+220,2021,22,Athletico-PR,Corinthians,0,1,V. Visitante
+221,2021,23,Bahia,Athletico-PR,0,1,V. Visitante
+222,2021,23,Juventude,Santos,0,1,V. Visitante
+223,2021,23,Sport,Grêmio,2,0,V. Mandante
+224,2021,23,Athletico-PR,Fortaleza,0,0,Empate
+225,2021,23,São Paulo,Corinthians,2,1,V. Mandante
+226,2021,23,RB Bragantino,Fortaleza,4,2,V. Mandante
+227,2021,23,São Paulo,Fortaleza,3,2,V. Mandante
+228,2021,23,Ceará,Palmeiras,0,0,Empate
+229,2021,23,Botafogo,Palmeiras,0,0,Empate
+230,2021,23,Bahia,São Paulo,1,1,Empate
+231,2021,24,Internacional,Fortaleza,0,2,V. Visitante
+232,2021,24,RB Bragantino,Flamengo,2,3,V. Visitante
+233,2021,24,Juventude,Flamengo,1,0,V. Mandante
+234,2021,24,América-MG,Corinthians,1,3,V. Visitante
+235,2021,24,Chapecoense,Corinthians,0,2,V. Visitante
+236,2021,24,Cuiabá,Corinthians,2,2,Empate
+237,2021,24,Ceará,Flamengo,2,2,Empate
+238,2021,24,Palmeiras,Fluminense,3,2,V. Mandante
+239,2021,24,São Paulo,Fluminense,2,2,Empate
+240,2021,24,América-MG,Fluminense,2,1,V. Mandante
+241,2021,25,Ceará,América-MG,0,2,V. Visitante
+242,2021,25,Sport,Ceará,1,1,Empate
+243,2021,25,Grêmio,Cuiabá,2,0,V. Mandante
+244,2021,25,Ceará,Cuiabá,0,1,V. Visitante
+245,2021,25,Palmeiras,Atlético-MG,2,2,Empate
+246,2021,25,Grêmio,Ceará,0,0,Empate
+247,2021,25,Cuiabá,Fortaleza,2,4,V. Visitante
+248,2021,25,Cuiabá,Flamengo,0,1,V. Visitante
+249,2021,25,Santos,América-MG,2,0,V. Mandante
+250,2021,25,RB Bragantino,Corinthians,2,1,V. Mandante
+251,2021,26,Santos,Fortaleza,0,2,V. Visitante
+252,2021,26,Palmeiras,RB Bragantino,4,2,V. Mandante
+253,2021,26,Juventude,Fortaleza,0,1,V. Visitante
+254,2021,26,América-MG,Palmeiras,0,2,V. Visitante
+255,2021,26,Corinthians,Atlético-MG,3,5,V. Visitante
+256,2021,26,Bahia,Ceará,2,3,V. Visitante
+257,2021,26,Bahia,Palmeiras,1,1,Empate
+258,2021,26,Botafogo,Cuiabá,2,1,V. Mandante
+259,2021,26,Ceará,São Paulo,5,0,V. Mandante
+260,2021,26,Ceará,Fluminense,4,1,V. Mandante
+261,2021,27,Internacional,Flamengo,1,1,Empate
+262,2021,27,Juventude,Palmeiras,1,1,Empate
+263,2021,27,São Paulo,RB Bragantino,1,0,V. Mandante
+264,2021,27,São Paulo,América-MG,0,2,V. Visitante
+265,2021,27,Santos,Flamengo,1,3,V. Visitante
+266,2021,27,Grêmio,Palmeiras,1,2,V. Visitante
+267,2021,27,Botafogo,Grêmio,3,1,V. Mandante
+268,2021,27,Sport,Fortaleza,0,0,Empate
+269,2021,27,Internacional,Santos,2,1,V. Mandante
+270,2021,27,São Paulo,Flamengo,2,1,V. Mandante
+271,2021,28,Corinthians,Flamengo,1,2,V. Visitante
+272,2021,28,Athletico-PR,Fluminense,2,1,V. Mandante
+273,2021,28,Internacional,Corinthians,0,1,V. Visitante
+274,2021,28,Cuiabá,RB Bragantino,2,1,V. Mandante
+275,2021,28,Juventude,RB Bragantino,3,0,V. Mandante
+276,2021,28,Bahia,Atlético-MG,3,2,V. Mandante
+277,2021,28,Sport,Fluminense,1,2,V. Visitante
+278,2021,28,São Paulo,Santos,1,0,V. Mandante
+279,2021,28,Athletico-PR,Atlético-MG,3,2,V. Mandante
+280,2021,28,Bahia,América-MG,0,2,V. Visitante
+281,2021,29,Santos,Athletico-PR,0,0,Empate
+282,2021,29,Fluminense,Flamengo,3,2,V. Mandante
+283,2021,29,Juventude,Atlético-MG,1,2,V. Visitante
+284,2021,29,Juventude,Internacional,3,0,V. Mandante
+285,2021,29,Botafogo,São Paulo,2,0,V. Mandante
+286,2021,29,Juventude,América-MG,0,1,V. Visitante
+287,2021,29,Palmeiras,Fortaleza,1,1,Empate
+288,2021,29,Internacional,Fluminense,1,1,Empate
+289,2021,29,Juventude,Cuiabá,2,1,V. Mandante
+290,2021,29,Bahia,Flamengo,0,4,V. Visitante
+291,2021,30,Grêmio,América-MG,1,2,V. Visitante
+292,2021,30,Grêmio,Fluminense,1,1,Empate
+293,2021,30,Sport,Cuiabá,1,0,V. Mandante
+294,2021,30,Botafogo,Atlético-MG,3,1,V. Mandante
+295,2021,30,São Paulo,Cuiabá,4,1,V. Mandante
+296,2021,30,América-MG,Flamengo,1,3,V. Visitante
+297,2021,30,Sport,Palmeiras,0,1,V. Visitante
+298,2021,30,Santos,RB Bragantino,0,2,V. Visitante
+299,2021,30,Cuiabá,Athletico-PR,1,1,Empate
+300,2021,30,Botafogo,Corinthians,4,1,V. Mandante
+301,2021,31,Bahia,Santos,1,4,V. Visitante
+302,2021,31,Grêmio,São Paulo,0,1,V. Visitante
+303,2021,31,Botafogo,Flamengo,1,3,V. Visitante
+304,2021,31,Palmeiras,Corinthians,5,1,V. Mandante
+305,2021,31,Botafogo,Athletico-PR,0,1,V. Visitante
+306,2021,31,Santos,Corinthians,0,0,Empate
+307,2021,31,Chapecoense,Cuiabá,3,0,V. Mandante
+308,2021,31,Sport,América-MG,1,0,V. Mandante
+309,2021,31,Grêmio,Flamengo,1,2,V. Visitante
+310,2021,31,Sport,Juventude,0,1,V. Visitante
+311,2021,32,Juventude,São Paulo,0,1,V. Visitante
+312,2021,32,Fortaleza,Flamengo,3,0,V. Mandante
+313,2021,32,Chapecoense,Internacional,0,0,Empate
+314,2021,32,Juventude,Corinthians,1,3,V. Visitante
+315,2021,32,Bahia,Sport,0,1,V. Visitante
+316,2021,32,Chapecoense,Atlético-MG,0,0,Empate
+317,2021,32,Chapecoense,São Paulo,1,0,V. Mandante
+318,2021,32,São Paulo,Palmeiras,1,3,V. Visitante
+319,2021,32,Santos,Atlético-MG,1,0,V. Mandante
+320,2021,32,Chapecoense,Flamengo,0,1,V. Visitante
+321,2021,33,Ceará,Fortaleza,1,0,V. Mandante
+322,2021,33,Sport,Santos,0,3,V. Visitante
+323,2021,33,Botafogo,Juventude,0,1,V. Visitante
+324,2021,33,Chapecoense,Juventude,1,1,Empate
+325,2021,33,Santos,Fluminense,1,1,Empate
+326,2021,33,Chapecoense,Palmeiras,0,5,V. Visitante
+327,2021,33,Sport,Internacional,1,0,V. Mandante
+328,2021,33,América-MG,Atlético-MG,1,3,V. Visitante
+329,2021,33,Chapecoense,RB Bragantino,2,0,V. Mandante
+330,2021,33,América-MG,Fortaleza,1,2,V. Visitante
+331,2021,34,Cuiabá,Atlético-MG,0,0,Empate
+332,2021,34,Chapecoense,Ceará,1,0,V. Mandante
+333,2021,34,Cuiabá,Palmeiras,0,3,V. Visitante
+334,2021,34,Sport,Corinthians,1,1,Empate
+335,2021,34,Chapecoense,Sport,0,0,Empate
+336,2021,34,São Paulo,Athletico-PR,2,0,V. Mandante
+337,2021,34,Chapecoense,Bahia,0,1,V. Visitante
+338,2021,34,Sport,RB Bragantino,2,0,V. Mandante
+339,2021,34,Botafogo,Internacional,0,2,V. Visitante
+340,2021,34,Bahia,Internacional,1,2,V. Visitante
+341,2021,35,Internacional,RB Bragantino,4,1,V. Mandante
+342,2021,35,Botafogo,Ceará,2,1,V. Mandante
+343,2021,35,Ceará,Internacional,3,0,V. Mandante
+344,2021,35,Fluminense,Atlético-MG,1,2,V. Visitante
+345,2021,35,Ceará,RB Bragantino,3,2,V. Mandante
+346,2021,35,Chapecoense,Fluminense,2,0,V. Mandante
+347,2021,35,Chapecoense,América-MG,3,0,V. Mandante
+348,2021,35,Bahia,RB Bragantino,0,2,V. Visitante
+349,2021,35,Botafogo,Santos,3,1,V. Mandante
+350,2021,35,Ceará,Santos,1,3,V. Visitante
+351,2021,36,Botafogo,RB Bragantino,0,1,V. Visitante
+352,2021,36,Cuiabá,América-MG,0,2,V. Visitante
+353,2021,36,Botafogo,Fluminense,2,2,Empate
+354,2021,36,Palmeiras,Flamengo,1,2,V. Visitante
+355,2021,36,Fluminense,Fortaleza,1,1,Empate
+356,2021,36,Chapecoense,Santos,1,0,V. Mandante
+357,2021,36,Botafogo,América-MG,0,0,Empate
+358,2021,36,Bahia,Fluminense,2,3,V. Visitante
+359,2021,36,Juventude,Ceará,1,1,Empate
+360,2021,36,Bahia,Cuiabá,1,1,Empate
+361,2021,37,Botafogo,Fortaleza,1,1,Empate
+362,2021,37,Bahia,Juventude,1,1,Empate
+363,2021,37,Internacional,Athletico-PR,2,2,Empate
+364,2021,37,São Paulo,Internacional,0,0,Empate
+365,2021,37,Ceará,Athletico-PR,3,1,V. Mandante
+366,2021,37,América-MG,RB Bragantino,1,0,V. Mandante
+367,2021,37,Chapecoense,Fortaleza,0,5,V. Visitante
+368,2021,37,Chapecoense,Botafogo,2,0,V. Mandante
+369,2021,37,Fortaleza,Atlético-MG,3,1,V. Mandante
+370,2021,37,Bahia,Grêmio,0,0,Empate
+371,2021,38,Grêmio,Corinthians,0,1,V. Visitante
+372,2021,38,Chapecoense,Grêmio,1,1,Empate
+373,2021,38,Athletico-PR,Palmeiras,3,2,V. Mandante
+374,2021,38,Athletico-PR,América-MG,0,0,Empate
+375,2021,38,Grêmio,Athletico-PR,2,2,Empate
+376,2021,38,Juventude,Athletico-PR,1,3,V. Visitante
+377,2021,38,Corinthians,Fortaleza,0,1,V. Visitante
+378,2021,38,São Paulo,Atlético-MG,1,1,Empate
+379,2021,38,Bahia,Fortaleza,1,1,Empate
+380,2021,38,Botafogo,Sport,1,0,V. Mandante
+381,2022,1,São Paulo,Juventude,1,0,V. Mandante
+382,2022,1,RB Bragantino,Fortaleza,2,1,V. Mandante
+383,2022,1,Fortaleza,Juventude,2,1,V. Mandante
+384,2022,1,Athletico-PR,Fortaleza,3,1,V. Mandante
+385,2022,1,Fluminense,Atlético-MG,1,1,Empate
+386,2022,1,Internacional,Avaí,2,1,V. Mandante
+387,2022,1,RB Bragantino,São Paulo,0,1,V. Visitante
+388,2022,1,RB Bragantino,Coritiba,2,0,V. Mandante
+389,2022,1,Palmeiras,Juventude,4,0,V. Mandante
+390,2022,1,Internacional,Atlético-MG,4,2,V. Mandante
+391,2022,2,Fluminense,Juventude,2,2,Empate
+392,2022,2,Fortaleza,Atlético-GO,3,0,V. Mandante
+393,2022,2,Flamengo,Avaí,3,1,V. Mandante
+394,2022,2,Internacional,Cuiabá,1,0,V. Mandante
+395,2022,2,Athletico-PR,Coritiba,0,0,Empate
+396,2022,2,Fluminense,Atlético-GO,5,1,V. Mandante
+397,2022,2,São Paulo,Santos,1,1,Empate
+398,2022,2,Athletico-PR,Atlético-MG,1,2,V. Visitante
+399,2022,2,Corinthians,RB Bragantino,2,0,V. Mandante
+400,2022,2,São Paulo,Goiás,3,0,V. Mandante
+401,2022,3,Goiás,Atlético-GO,1,1,Empate
+402,2022,3,São Paulo,Ceará,1,0,V. Mandante
+403,2022,3,Botafogo,Santos,0,1,V. Visitante
+404,2022,3,Goiás,Avaí,1,1,Empate
+405,2022,3,RB Bragantino,América-MG,3,1,V. Mandante
+406,2022,3,Corinthians,Ceará,3,2,V. Mandante
+407,2022,3,Botafogo,RB Bragantino,2,0,V. Mandante
+408,2022,3,Botafogo,Cuiabá,1,2,V. Visitante
+409,2022,3,Corinthians,Cuiabá,0,0,Empate
+410,2022,3,Palmeiras,Fortaleza,3,0,V. Mandante
+411,2022,4,Internacional,Fortaleza,1,1,Empate
+412,2022,4,Juventude,Atlético-GO,1,0,V. Mandante
+413,2022,4,Athletico-PR,Avaí,2,1,V. Mandante
+414,2022,4,Corinthians,Atlético-MG,0,4,V. Visitante
+415,2022,4,Coritiba,Avaí,0,0,Empate
+416,2022,4,Botafogo,São Paulo,3,0,V. Mandante
+417,2022,4,América-MG,Fortaleza,2,2,Empate
+418,2022,4,Corinthians,Coritiba,2,1,V. Mandante
+419,2022,4,Flamengo,Atlético-MG,3,3,Empate
+420,2022,4,Internacional,Ceará,3,1,V. Mandante
+421,2022,5,Palmeiras,Corinthians,2,2,Empate
+422,2022,5,Flamengo,Athletico-PR,2,3,V. Visitante
+423,2022,5,Corinthians,Juventude,2,1,V. Mandante
+424,2022,5,América-MG,Coritiba,1,2,V. Visitante
+425,2022,5,Internacional,Atlético-GO,3,1,V. Mandante
+426,2022,5,Corinthians,São Paulo,3,0,V. Mandante
+427,2022,5,Palmeiras,Internacional,2,1,V. Mandante
+428,2022,5,Athletico-PR,Goiás,0,1,V. Visitante
+429,2022,5,Santos,Cuiabá,3,2,V. Mandante
+430,2022,5,RB Bragantino,Cuiabá,2,1,V. Mandante
+431,2022,6,Athletico-PR,Cuiabá,2,1,V. Mandante
+432,2022,6,Santos,Avaí,0,0,Empate
+433,2022,6,Ceará,Cuiabá,1,0,V. Mandante
+434,2022,6,Avaí,Atlético-GO,0,4,V. Visitante
+435,2022,6,América-MG,Juventude,0,0,Empate
+436,2022,6,Fluminense,Santos,2,0,V. Mandante
+437,2022,6,Athletico-PR,Santos,1,1,Empate
+438,2022,6,Palmeiras,Avaí,1,0,V. Mandante
+439,2022,6,RB Bragantino,Atlético-GO,2,1,V. Mandante
+440,2022,6,São Paulo,Atlético-MG,1,2,V. Visitante
+441,2022,7,América-MG,Santos,2,0,V. Mandante
+442,2022,7,Botafogo,América-MG,1,2,V. Visitante
+443,2022,7,Botafogo,Avaí,0,0,Empate
+444,2022,7,RB Bragantino,Avaí,1,1,Empate
+445,2022,7,Ceará,Coritiba,3,1,V. Mandante
+446,2022,7,Fluminense,Fortaleza,2,0,V. Mandante
+447,2022,7,Botafogo,Ceará,1,0,V. Mandante
+448,2022,7,Fluminense,Ceará,3,3,Empate
+449,2022,7,Palmeiras,São Paulo,1,0,V. Mandante
+450,2022,7,Flamengo,Corinthians,5,2,V. Mandante
+451,2022,8,Internacional,Juventude,2,2,Empate
+452,2022,8,Fluminense,Botafogo,3,2,V. Mandante
+453,2022,8,Internacional,Botafogo,0,3,V. Visitante
+454,2022,8,Palmeiras,América-MG,1,1,Empate
+455,2022,8,América-MG,Avaí,1,2,V. Visitante
+456,2022,8,Palmeiras,Ceará,3,1,V. Mandante
+457,2022,8,Palmeiras,Atlético-MG,2,2,Empate
+458,2022,8,Fluminense,Avaí,1,1,Empate
+459,2022,8,Ceará,Avaí,1,2,V. Visitante
+460,2022,8,Palmeiras,Atlético-GO,2,0,V. Mandante
+461,2022,9,Santos,Atlético-MG,1,2,V. Visitante
+462,2022,9,Fluminense,Goiás,3,0,V. Mandante
+463,2022,9,Internacional,Athletico-PR,4,1,V. Mandante
+464,2022,9,Fluminense,Cuiabá,4,1,V. Mandante
+465,2022,9,Atlético-MG,Goiás,3,0,V. Mandante
+466,2022,9,Palmeiras,Botafogo,3,0,V. Mandante
+467,2022,9,Fluminense,RB Bragantino,0,2,V. Visitante
+468,2022,9,Fluminense,São Paulo,1,0,V. Mandante
+469,2022,9,Corinthians,Botafogo,1,1,Empate
+470,2022,9,Palmeiras,Flamengo,2,2,Empate
+471,2022,10,Internacional,RB Bragantino,5,0,V. Mandante
+472,2022,10,América-MG,Cuiabá,0,3,V. Visitante
+473,2022,10,RB Bragantino,Atlético-MG,1,3,V. Visitante
+474,2022,10,Botafogo,Goiás,2,1,V. Mandante
+475,2022,10,Atlético-MG,Atlético-GO,1,3,V. Visitante
+476,2022,10,Ceará,Atlético-GO,0,3,V. Visitante
+477,2022,10,RB Bragantino,Juventude,3,1,V. Mandante
+478,2022,10,Internacional,São Paulo,0,3,V. Visitante
+479,2022,10,Palmeiras,Coritiba,1,0,V. Mandante
+480,2022,10,Athletico-PR,Ceará,2,4,V. Visitante
+481,2022,11,Botafogo,Fortaleza,1,1,Empate
+482,2022,11,Corinthians,Fortaleza,4,2,V. Mandante
+483,2022,11,São Paulo,Fortaleza,1,2,V. Visitante
+484,2022,11,Botafogo,Atlético-MG,2,2,Empate
+485,2022,11,Palmeiras,Goiás,1,0,V. Mandante
+486,2022,11,Atlético-MG,Ceará,3,0,V. Mandante
+487,2022,11,Flamengo,Cuiabá,5,0,V. Mandante
+488,2022,11,Internacional,América-MG,5,2,V. Mandante
+489,2022,11,Internacional,Fluminense,2,1,V. Mandante
+490,2022,11,Ceará,Juventude,2,0,V. Mandante
+491,2022,12,Cuiabá,Atlético-GO,2,1,V. Mandante
+492,2022,12,Internacional,Coritiba,4,1,V. Mandante
+493,2022,12,Atlético-MG,Fortaleza,0,0,Empate
+494,2022,12,Ceará,Fortaleza,1,2,V. Visitante
+495,2022,12,Flamengo,Ceará,6,2,V. Mandante
+496,2022,12,Avaí,Juventude,1,1,Empate
+497,2022,12,Flamengo,Fortaleza,3,1,V. Mandante
+498,2022,12,Athletico-PR,Atlético-GO,0,0,Empate
+499,2022,12,Palmeiras,Santos,6,0,V. Mandante
+500,2022,12,Flamengo,América-MG,1,1,Empate
+501,2022,13,Flamengo,São Paulo,2,2,Empate
+502,2022,13,Fluminense,Flamengo,1,2,V. Visitante
+503,2022,13,Fluminense,Athletico-PR,3,1,V. Mandante
+504,2022,13,Botafogo,Juventude,1,1,Empate
+505,2022,13,Athletico-PR,América-MG,0,0,Empate
+506,2022,13,Corinthians,Santos,1,0,V. Mandante
+507,2022,13,São Paulo,Atlético-GO,0,0,Empate
+508,2022,13,Fluminense,Corinthians,1,0,V. Mandante
+509,2022,13,América-MG,São Paulo,1,1,Empate
+510,2022,13,América-MG,Atlético-GO,4,0,V. Mandante
+511,2022,14,Fortaleza,Avaí,0,0,Empate
+512,2022,14,Atlético-MG,Coritiba,2,1,V. Mandante
+513,2022,14,Flamengo,Goiás,1,0,V. Mandante
+514,2022,14,Fortaleza,Goiás,1,0,V. Mandante
+515,2022,14,Botafogo,Atlético-GO,1,1,Empate
+516,2022,14,Internacional,Corinthians,3,3,Empate
+517,2022,14,Palmeiras,Fluminense,2,0,V. Mandante
+518,2022,14,Palmeiras,Athletico-PR,0,1,V. Visitante
+519,2022,14,Atlético-MG,Avaí,0,1,V. Visitante
+520,2022,14,Corinthians,América-MG,0,0,Empate
+521,2022,15,Flamengo,Coritiba,1,1,Empate
+522,2022,15,Coritiba,Juventude,0,2,V. Visitante
+523,2022,15,Coritiba,Atlético-GO,1,1,Empate
+524,2022,15,Palmeiras,Cuiabá,2,1,V. Mandante
+525,2022,15,Santos,Juventude,3,1,V. Mandante
+526,2022,15,Fluminense,América-MG,3,0,V. Mandante
+527,2022,15,Internacional,Santos,1,3,V. Visitante
+528,2022,15,Athletico-PR,Juventude,4,1,V. Mandante
+529,2022,15,Santos,Goiás,0,0,Empate
+530,2022,15,Flamengo,Santos,4,0,V. Mandante
+531,2022,16,Corinthians,Goiás,1,0,V. Mandante
+532,2022,16,Internacional,Goiás,1,1,Empate
+533,2022,16,Athletico-PR,Botafogo,2,1,V. Mandante
+534,2022,16,Corinthians,Athletico-PR,2,0,V. Mandante
+535,2022,16,Goiás,Juventude,2,1,V. Mandante
+536,2022,16,RB Bragantino,Ceará,4,2,V. Mandante
+537,2022,16,São Paulo,Coritiba,2,2,Empate
+538,2022,16,Fortaleza,Cuiabá,0,1,V. Visitante
+539,2022,16,Corinthians,Atlético-GO,1,1,Empate
+540,2022,16,Athletico-PR,São Paulo,3,0,V. Mandante
+541,2022,17,RB Bragantino,Santos,1,1,Empate
+542,2022,17,Santos,Ceará,2,0,V. Mandante
+543,2022,17,Fluminense,Coritiba,3,1,V. Mandante
+544,2022,17,Athletico-PR,RB Bragantino,3,0,V. Mandante
+545,2022,17,América-MG,Goiás,0,0,Empate
+546,2022,17,Flamengo,Juventude,2,1,V. Mandante
+547,2022,17,Corinthians,Avaí,3,1,V. Mandante
+548,2022,17,Cuiabá,Juventude,3,1,V. Mandante
+549,2022,17,Flamengo,RB Bragantino,2,2,Empate
+550,2022,17,Ceará,Goiás,1,3,V. Visitante
+551,2022,18,Flamengo,Botafogo,2,2,Empate
+552,2022,18,São Paulo,Avaí,0,2,V. Visitante
+553,2022,18,América-MG,Ceará,1,0,V. Mandante
+554,2022,18,RB Bragantino,Goiás,0,0,Empate
+555,2022,18,Santos,Atlético-GO,2,0,V. Mandante
+556,2022,18,Fortaleza,Coritiba,2,0,V. Mandante
+557,2022,18,Santos,Coritiba,2,0,V. Mandante
+558,2022,18,Coritiba,Goiás,1,1,Empate
+559,2022,18,Goiás,Cuiabá,1,1,Empate
+560,2022,18,Santos,Fortaleza,0,1,V. Visitante
+561,2022,19,Atlético-MG,Cuiabá,3,1,V. Mandante
+562,2022,19,São Paulo,Cuiabá,4,0,V. Mandante
+563,2022,19,América-MG,Atlético-MG,2,2,Empate
+564,2022,19,Flamengo,Atlético-GO,2,0,V. Mandante
+565,2022,19,Palmeiras,RB Bragantino,1,1,Empate
+566,2022,19,Atlético-MG,Juventude,2,1,V. Mandante
+567,2022,19,Coritiba,Cuiabá,4,1,V. Mandante
+568,2022,19,Internacional,Flamengo,3,1,V. Mandante
+569,2022,19,Avaí,Cuiabá,2,2,Empate
+570,2022,19,Botafogo,Coritiba,1,0,V. Mandante
+571,2022,20,Avaí,Ceará,0,1,V. Visitante
+572,2022,20,Juventude,Avaí,1,0,V. Mandante
+573,2022,20,Atlético-MG,Botafogo,3,1,V. Mandante
+574,2022,20,Coritiba,Corinthians,0,1,V. Visitante
+575,2022,20,América-MG,Botafogo,2,1,V. Mandante
+576,2022,20,Juventude,Fortaleza,3,1,V. Mandante
+577,2022,20,São Paulo,Athletico-PR,3,2,V. Mandante
+578,2022,20,Juventude,Botafogo,0,0,Empate
+579,2022,20,Santos,Palmeiras,0,1,V. Visitante
+580,2022,20,Fortaleza,Internacional,2,4,V. Visitante
+581,2022,21,Goiás,Ceará,1,0,V. Mandante
+582,2022,21,América-MG,Fluminense,1,1,Empate
+583,2022,21,Atlético-GO,Fluminense,3,2,V. Mandante
+584,2022,21,Avaí,Botafogo,0,4,V. Visitante
+585,2022,21,Coritiba,Fluminense,3,1,V. Mandante
+586,2022,21,Coritiba,Flamengo,3,3,Empate
+587,2022,21,Juventude,Palmeiras,0,1,V. Visitante
+588,2022,21,América-MG,Corinthians,2,1,V. Mandante
+589,2022,21,Atlético-GO,América-MG,1,0,V. Mandante
+590,2022,21,Fortaleza,América-MG,1,0,V. Mandante
+591,2022,22,Fortaleza,Palmeiras,1,4,V. Visitante
+592,2022,22,Goiás,São Paulo,2,1,V. Mandante
+593,2022,22,Avaí,Athletico-PR,1,3,V. Visitante
+594,2022,22,São Paulo,Internacional,1,2,V. Visitante
+595,2022,22,RB Bragantino,Palmeiras,3,0,V. Mandante
+596,2022,22,Coritiba,Botafogo,0,0,Empate
+597,2022,22,Atlético-GO,Flamengo,1,2,V. Visitante
+598,2022,22,Coritiba,São Paulo,2,0,V. Mandante
+599,2022,22,Cuiabá,América-MG,1,1,Empate
+600,2022,22,Atlético-GO,São Paulo,1,0,V. Mandante
+601,2022,23,Botafogo,Palmeiras,2,3,V. Visitante
+602,2022,23,Athletico-PR,Flamengo,2,1,V. Mandante
+603,2022,23,São Paulo,Flamengo,5,1,V. Mandante
+604,2022,23,Avaí,RB Bragantino,1,2,V. Visitante
+605,2022,23,Atlético-MG,Internacional,3,2,V. Mandante
+606,2022,23,Atlético-MG,RB Bragantino,2,0,V. Mandante
+607,2022,23,Cuiabá,Athletico-PR,2,4,V. Visitante
+608,2022,23,Coritiba,Ceará,0,1,V. Visitante
+609,2022,23,Santos,São Paulo,3,2,V. Mandante
+610,2022,23,Avaí,Santos,0,2,V. Visitante
+611,2022,24,Santos,Athletico-PR,1,7,V. Visitante
+612,2022,24,Avaí,Fortaleza,1,1,Empate
+613,2022,24,Goiás,Coritiba,0,0,Empate
+614,2022,24,Atlético-GO,Santos,3,0,V. Mandante
+615,2022,24,Coritiba,Internacional,0,1,V. Visitante
+616,2022,24,Botafogo,Internacional,0,2,V. Visitante
+617,2022,24,Juventude,Coritiba,0,1,V. Visitante
+618,2022,24,Atlético-GO,Ceará,2,0,V. Mandante
+619,2022,24,Avaí,Atlético-MG,0,3,V. Visitante
+620,2022,24,Coritiba,Fortaleza,1,2,V. Visitante
+621,2022,25,Santos,Botafogo,2,1,V. Mandante
+622,2022,25,São Paulo,RB Bragantino,3,2,V. Mandante
+623,2022,25,Atlético-GO,Corinthians,1,2,V. Visitante
+624,2022,25,São Paulo,Fluminense,2,3,V. Visitante
+625,2022,25,Cuiabá,Ceará,0,0,Empate
+626,2022,25,Atlético-GO,Internacional,1,1,Empate
+627,2022,25,Fluminense,Internacional,1,0,V. Mandante
+628,2022,25,Juventude,Ceará,1,2,V. Visitante
+629,2022,25,Athletico-PR,Palmeiras,5,1,V. Mandante
+630,2022,25,Ceará,Athletico-PR,2,0,V. Mandante
+631,2022,26,Atlético-MG,Santos,2,2,Empate
+632,2022,26,Goiás,Fluminense,2,2,Empate
+633,2022,26,Avaí,América-MG,0,0,Empate
+634,2022,26,Botafogo,Athletico-PR,4,0,V. Mandante
+635,2022,26,Atlético-MG,Palmeiras,1,3,V. Visitante
+636,2022,26,Atlético-MG,América-MG,3,1,V. Mandante
+637,2022,26,Ceará,Palmeiras,1,3,V. Visitante
+638,2022,26,Fortaleza,RB Bragantino,0,0,Empate
+639,2022,26,Atlético-GO,Botafogo,0,0,Empate
+640,2022,26,Cuiabá,Santos,1,0,V. Mandante
+641,2022,27,Cuiabá,Atlético-MG,1,1,Empate
+642,2022,27,Corinthians,Flamengo,1,2,V. Visitante
+643,2022,27,Fortaleza,Corinthians,2,3,V. Visitante
+644,2022,27,Fluminense,Palmeiras,2,1,V. Mandante
+645,2022,27,América-MG,Palmeiras,0,3,V. Visitante
+646,2022,27,Ceará,São Paulo,1,1,Empate
+647,2022,27,Cuiabá,Flamengo,1,2,V. Visitante
+648,2022,27,Cuiabá,Coritiba,0,0,Empate
+649,2022,27,Coritiba,América-MG,3,1,V. Mandante
+650,2022,27,América-MG,Flamengo,3,0,V. Mandante
+651,2022,28,Fortaleza,Athletico-PR,1,2,V. Visitante
+652,2022,28,Cuiabá,Fortaleza,4,2,V. Mandante
+653,2022,28,Goiás,Athletico-PR,3,0,V. Mandante
+654,2022,28,Cuiabá,Fluminense,1,2,V. Visitante
+655,2022,28,Atlético-GO,Atlético-MG,3,2,V. Mandante
+656,2022,28,Fortaleza,Flamengo,4,2,V. Mandante
+657,2022,28,São Paulo,Palmeiras,1,3,V. Visitante
+658,2022,28,Cuiabá,Goiás,1,0,V. Mandante
+659,2022,28,Goiás,Corinthians,0,0,Empate
+660,2022,28,Coritiba,RB Bragantino,1,0,V. Mandante
+661,2022,29,Juventude,Internacional,0,5,V. Visitante
+662,2022,29,Santos,Flamengo,0,4,V. Visitante
+663,2022,29,Juventude,Fluminense,2,2,Empate
+664,2022,29,Atlético-GO,Avaí,1,1,Empate
+665,2022,29,Juventude,São Paulo,1,1,Empate
+666,2022,29,Coritiba,Santos,1,5,V. Visitante
+667,2022,29,Fortaleza,Botafogo,1,2,V. Visitante
+668,2022,29,Ceará,Botafogo,3,0,V. Mandante
+669,2022,29,Ceará,Flamengo,2,4,V. Visitante
+670,2022,29,Ceará,Atlético-MG,1,1,Empate
+671,2022,30,Athletico-PR,Corinthians,1,1,Empate
+672,2022,30,Santos,Fluminense,1,2,V. Visitante
+673,2022,30,Cuiabá,RB Bragantino,0,0,Empate
+674,2022,30,Santos,Internacional,2,2,Empate
+675,2022,30,RB Bragantino,Corinthians,2,1,V. Mandante
+676,2022,30,Santos,América-MG,1,0,V. Mandante
+677,2022,30,RB Bragantino,Fluminense,2,4,V. Visitante
+678,2022,30,Flamengo,Palmeiras,1,1,Empate
+679,2022,30,Avaí,Coritiba,0,0,Empate
+680,2022,30,Cuiabá,Botafogo,2,0,V. Mandante
+681,2022,31,Cuiabá,Corinthians,0,2,V. Visitante
+682,2022,31,Fortaleza,Fluminense,0,1,V. Visitante
+683,2022,31,Corinthians,Internacional,4,2,V. Mandante
+684,2022,31,Juventude,Santos,1,0,V. Mandante
+685,2022,31,São Paulo,Botafogo,0,1,V. Visitante
+686,2022,31,América-MG,Internacional,4,1,V. Mandante
+687,2022,31,Coritiba,Palmeiras,2,3,V. Visitante
+688,2022,31,América-MG,Athletico-PR,1,0,V. Mandante
+689,2022,31,Athletico-PR,Fluminense,0,1,V. Visitante
+690,2022,31,RB Bragantino,Internacional,3,2,V. Mandante
+691,2022,32,América-MG,RB Bragantino,1,0,V. Mandante
+692,2022,32,Juventude,Corinthians,0,1,V. Visitante
+693,2022,32,Juventude,RB Bragantino,1,3,V. Visitante
+694,2022,32,Ceará,Corinthians,1,4,V. Visitante
+695,2022,32,Cuiabá,Avaí,2,1,V. Mandante
+696,2022,32,Atlético-GO,Palmeiras,0,0,Empate
+697,2022,32,Cuiabá,Internacional,0,1,V. Visitante
+698,2022,32,Atlético-MG,Flamengo,2,3,V. Visitante
+699,2022,32,Botafogo,Corinthians,2,0,V. Mandante
+700,2022,32,RB Bragantino,Botafogo,1,1,Empate
+701,2022,33,Goiás,Atlético-MG,2,0,V. Mandante
+702,2022,33,Ceará,Santos,3,0,V. Mandante
+703,2022,33,Goiás,RB Bragantino,0,1,V. Visitante
+704,2022,33,Juventude,Athletico-PR,1,2,V. Visitante
+705,2022,33,Avaí,Goiás,2,2,Empate
+706,2022,33,Juventude,América-MG,0,2,V. Visitante
+707,2022,33,Santos,RB Bragantino,2,2,Empate
+708,2022,33,Atlético-MG,Corinthians,1,4,V. Visitante
+709,2022,33,Atlético-GO,Athletico-PR,1,0,V. Mandante
+710,2022,33,Atlético-MG,São Paulo,1,0,V. Mandante
+711,2022,34,Corinthians,Fluminense,1,0,V. Mandante
+712,2022,34,Avaí,São Paulo,1,0,V. Mandante
+713,2022,34,Atlético-MG,Fluminense,2,1,V. Mandante
+714,2022,34,Ceará,RB Bragantino,0,1,V. Visitante
+715,2022,34,Botafogo,Flamengo,1,0,V. Mandante
+716,2022,34,Atlético-GO,Goiás,1,1,Empate
+717,2022,34,Cuiabá,São Paulo,2,0,V. Mandante
+718,2022,34,Flamengo,Fluminense,2,2,Empate
+719,2022,34,Coritiba,Atlético-MG,0,1,V. Visitante
+720,2022,34,Corinthians,Palmeiras,2,4,V. Visitante
+721,2022,35,Avaí,Flamengo,0,0,Empate
+722,2022,35,Goiás,Fortaleza,2,0,V. Mandante
+723,2022,35,RB Bragantino,Athletico-PR,2,2,Empate
+724,2022,35,Internacional,Palmeiras,2,1,V. Mandante
+725,2022,35,Atlético-GO,RB Bragantino,2,2,Empate
+726,2022,35,Fortaleza,Santos,2,2,Empate
+727,2022,35,Ceará,Fluminense,1,0,V. Mandante
+728,2022,35,Juventude,Goiás,0,0,Empate
+729,2022,35,Goiás,Flamengo,0,3,V. Visitante
+730,2022,35,Avaí,Palmeiras,0,1,V. Visitante
+731,2022,36,São Paulo,América-MG,1,1,Empate
+732,2022,36,Goiás,Internacional,4,0,V. Mandante
+733,2022,36,Atlético-MG,Athletico-PR,2,0,V. Mandante
+734,2022,36,Goiás,Palmeiras,0,3,V. Visitante
+735,2022,36,Coritiba,Athletico-PR,1,0,V. Mandante
+736,2022,36,Fortaleza,São Paulo,1,0,V. Mandante
+737,2022,36,Juventude,Cuiabá,0,0,Empate
+738,2022,36,Juventude,Flamengo,0,0,Empate
+739,2022,36,Cuiabá,Palmeiras,0,0,Empate
+740,2022,36,Goiás,Santos,1,0,V. Mandante
+741,2022,37,Ceará,América-MG,1,3,V. Visitante
+742,2022,37,Athletico-PR,Internacional,2,0,V. Mandante
+743,2022,37,São Paulo,Corinthians,2,1,V. Mandante
+744,2022,37,RB Bragantino,Flamengo,1,0,V. Mandante
+745,2022,37,Avaí,Corinthians,2,1,V. Mandante
+746,2022,37,Atlético-GO,Juventude,2,0,V. Mandante
+747,2022,37,Avaí,Fluminense,0,0,Empate
+748,2022,37,Botafogo,Fluminense,3,1,V. Mandante
+749,2022,37,Avaí,Internacional,0,2,V. Visitante
+750,2022,37,Atlético-GO,Coritiba,0,1,V. Visitante
+751,2022,38,Fortaleza,Ceará,2,0,V. Mandante
+752,2022,38,Juventude,Atlético-MG,1,3,V. Visitante
+753,2022,38,Fortaleza,Atlético-MG,1,2,V. Visitante
+754,2022,38,Flamengo,Internacional,1,1,Empate
+755,2022,38,Ceará,Internacional,0,0,Empate
+756,2022,38,Santos,Corinthians,2,1,V. Mandante
+757,2022,38,Goiás,América-MG,0,3,V. Visitante
+758,2022,38,Atlético-GO,Cuiabá,1,0,V. Mandante
+759,2022,38,Goiás,Botafogo,0,1,V. Visitante
+760,2022,38,Atlético-GO,Fortaleza,0,3,V. Visitante
+761,2023,1,Grêmio,Santos,4,0,V. Mandante
+762,2023,1,Grêmio,Goiás,1,0,V. Mandante
+763,2023,1,Athletico-PR,Coritiba,0,0,Empate
+764,2023,1,Corinthians,Bahia,2,0,V. Mandante
+765,2023,1,América-MG,Cruzeiro,0,1,V. Visitante
+766,2023,1,Palmeiras,Coritiba,1,0,V. Mandante
+767,2023,1,Internacional,Santos,0,3,V. Visitante
+768,2023,1,Grêmio,América-MG,2,1,V. Mandante
+769,2023,1,América-MG,Goiás,0,1,V. Visitante
+770,2023,1,Palmeiras,Cruzeiro,5,0,V. Mandante
+771,2023,2,Vasco,Coritiba,1,0,V. Mandante
+772,2023,2,Botafogo,Fluminense,3,1,V. Mandante
+773,2023,2,São Paulo,Bahia,5,0,V. Mandante
+774,2023,2,Red Bull Bragantino,Cuiabá,2,4,V. Visitante
+775,2023,2,Athletico-PR,Goiás,0,0,Empate
+776,2023,2,Cuiabá,Vasco,2,1,V. Mandante
+777,2023,2,Fluminense,Cruzeiro,2,0,V. Mandante
+778,2023,2,Fluminense,Internacional,2,2,Empate
+779,2023,2,Internacional,Coritiba,1,1,Empate
+780,2023,2,Athletico-PR,Cruzeiro,1,1,Empate
+781,2023,3,Santos,Cruzeiro,0,1,V. Visitante
+782,2023,3,Red Bull Bragantino,São Paulo,1,1,Empate
+783,2023,3,Flamengo,Vasco,4,3,V. Mandante
+784,2023,3,Red Bull Bragantino,Bahia,3,0,V. Mandante
+785,2023,3,Cruzeiro,Bahia,1,1,Empate
+786,2023,3,Red Bull Bragantino,Coritiba,1,0,V. Mandante
+787,2023,3,América-MG,Bahia,3,2,V. Mandante
+788,2023,3,Fluminense,Goiás,0,1,V. Visitante
+789,2023,3,São Paulo,Coritiba,1,1,Empate
+790,2023,3,Flamengo,Coritiba,1,0,V. Mandante
+791,2023,4,Flamengo,São Paulo,1,3,V. Visitante
+792,2023,4,Botafogo,Coritiba,1,1,Empate
+793,2023,4,Botafogo,Flamengo,1,0,V. Mandante
+794,2023,4,Botafogo,Corinthians,2,0,V. Mandante
+795,2023,4,Fluminense,Bahia,3,0,V. Mandante
+796,2023,4,Fluminense,Corinthians,1,1,Empate
+797,2023,4,Corinthians,Santos,1,1,Empate
+798,2023,4,Red Bull Bragantino,Internacional,1,1,Empate
+799,2023,4,Flamengo,Corinthians,0,0,Empate
+800,2023,4,Corinthians,Athletico-PR,0,0,Empate
+801,2023,5,Grêmio,Bahia,1,0,V. Mandante
+802,2023,5,Corinthians,Vasco,2,0,V. Mandante
+803,2023,5,Grêmio,Cruzeiro,1,1,Empate
+804,2023,5,Botafogo,Internacional,2,2,Empate
+805,2023,5,Botafogo,São Paulo,1,0,V. Mandante
+806,2023,5,Atlético-MG,Flamengo,1,1,Empate
+807,2023,5,Fortaleza,Santos,2,1,V. Mandante
+808,2023,5,Botafogo,Grêmio,4,1,V. Mandante
+809,2023,5,Flamengo,Cruzeiro,2,0,V. Mandante
+810,2023,5,Grêmio,Vasco,1,1,Empate
+811,2023,6,Atlético-MG,Santos,4,1,V. Mandante
+812,2023,6,Fluminense,América-MG,0,1,V. Visitante
+813,2023,6,Botafogo,Atlético-MG,0,0,Empate
+814,2023,6,Red Bull Bragantino,Vasco,0,1,V. Visitante
+815,2023,6,Fluminense,Vasco,1,0,V. Mandante
+816,2023,6,Internacional,Bahia,1,1,Empate
+817,2023,6,São Paulo,Goiás,3,0,V. Mandante
+818,2023,6,Palmeiras,Internacional,2,0,V. Mandante
+819,2023,6,Atlético-MG,Cuiabá,1,0,V. Mandante
+820,2023,6,Flamengo,Internacional,4,0,V. Mandante
+821,2023,7,Botafogo,Fortaleza,1,1,Empate
+822,2023,7,Corinthians,Goiás,0,0,Empate
+823,2023,7,São Paulo,Corinthians,4,1,V. Mandante
+824,2023,7,Santos,Coritiba,2,2,Empate
+825,2023,7,Fortaleza,América-MG,1,1,Empate
+826,2023,7,Fortaleza,Bahia,4,1,V. Mandante
+827,2023,7,Botafogo,Palmeiras,2,1,V. Mandante
+828,2023,7,Athletico-PR,Bahia,1,0,V. Mandante
+829,2023,7,Fortaleza,Cuiabá,0,0,Empate
+830,2023,7,Internacional,Cruzeiro,1,1,Empate
+831,2023,8,Cruzeiro,Vasco,2,3,V. Visitante
+832,2023,8,América-MG,Vasco,0,1,V. Visitante
+833,2023,8,Athletico-PR,Santos,1,2,V. Visitante
+834,2023,8,Cuiabá,Santos,0,0,Empate
+835,2023,8,Internacional,Goiás,3,1,V. Mandante
+836,2023,8,Palmeiras,Vasco,6,2,V. Mandante
+837,2023,8,Botafogo,Santos,1,1,Empate
+838,2023,8,América-MG,Coritiba,0,0,Empate
+839,2023,8,Fluminense,Cuiabá,2,1,V. Mandante
+840,2023,8,Atlético-MG,Fortaleza,1,4,V. Visitante
+841,2023,9,Red Bull Bragantino,Fortaleza,0,0,Empate
+842,2023,9,Red Bull Bragantino,Santos,1,0,V. Mandante
+843,2023,9,Palmeiras,Santos,1,0,V. Mandante
+844,2023,9,Grêmio,Internacional,1,1,Empate
+845,2023,9,Flamengo,Santos,3,0,V. Mandante
+846,2023,9,São Paulo,Santos,4,0,V. Mandante
+847,2023,9,Corinthians,Fortaleza,0,3,V. Visitante
+848,2023,9,Santos,Goiás,1,0,V. Mandante
+849,2023,9,Botafogo,Red Bull Bragantino,2,1,V. Mandante
+850,2023,9,Red Bull Bragantino,América-MG,2,2,Empate
+851,2023,10,Grêmio,Coritiba,2,1,V. Mandante
+852,2023,10,Santos,América-MG,0,0,Empate
+853,2023,10,Botafogo,Vasco,2,2,Empate
+854,2023,10,Grêmio,Corinthians,1,0,V. Mandante
+855,2023,10,Athletico-PR,Cuiabá,1,1,Empate
+856,2023,10,Palmeiras,América-MG,5,1,V. Mandante
+857,2023,10,Grêmio,Fortaleza,2,0,V. Mandante
+858,2023,10,Flamengo,Red Bull Bragantino,4,2,V. Mandante
+859,2023,10,Atlético-MG,Athletico-PR,1,0,V. Mandante
+860,2023,10,Botafogo,América-MG,1,2,V. Visitante
+861,2023,11,Red Bull Bragantino,Fluminense,1,1,Empate
+862,2023,11,Flamengo,Goiás,1,0,V. Mandante
+863,2023,11,Fluminense,Athletico-PR,5,2,V. Mandante
+864,2023,11,Athletico-PR,Fortaleza,4,1,V. Mandante
+865,2023,11,Atlético-MG,Coritiba,1,1,Empate
+866,2023,11,Fluminense,Fortaleza,1,1,Empate
+867,2023,11,Red Bull Bragantino,Goiás,2,0,V. Mandante
+868,2023,11,Corinthians,Cruzeiro,2,3,V. Visitante
+869,2023,11,Corinthians,América-MG,4,1,V. Mandante
+870,2023,11,São Paulo,Fortaleza,3,1,V. Mandante
+871,2023,12,Palmeiras,Atlético-MG,2,0,V. Mandante
+872,2023,12,Atlético-MG,Vasco,2,4,V. Visitante
+873,2023,12,Atlético-MG,Bahia,3,1,V. Mandante
+874,2023,12,Atlético-MG,Internacional,3,1,V. Mandante
+875,2023,12,Botafogo,Cruzeiro,6,3,V. Mandante
+876,2023,12,São Paulo,Cruzeiro,1,2,V. Visitante
+877,2023,12,Internacional,Athletico-PR,3,2,V. Mandante
+878,2023,12,Palmeiras,Red Bull Bragantino,2,1,V. Mandante
+879,2023,12,Atlético-MG,Cruzeiro,1,0,V. Mandante
+880,2023,12,Grêmio,Atlético-MG,3,0,V. Mandante
+881,2023,13,Botafogo,Bahia,1,0,V. Mandante
+882,2023,13,Fortaleza,Goiás,1,1,Empate
+883,2023,13,Internacional,Vasco,1,0,V. Mandante
+884,2023,13,Grêmio,Athletico-PR,0,1,V. Visitante
+885,2023,13,Palmeiras,Goiás,2,0,V. Mandante
+886,2023,13,Fortaleza,Cruzeiro,0,2,V. Visitante
+887,2023,13,Cruzeiro,Coritiba,1,1,Empate
+888,2023,13,Atlético-MG,Red Bull Bragantino,0,1,V. Visitante
+889,2023,13,São Paulo,Fluminense,1,1,Empate
+890,2023,13,Cuiabá,Coritiba,0,1,V. Visitante
+891,2023,14,Internacional,Fortaleza,2,2,Empate
+892,2023,14,Santos,Vasco,2,1,V. Mandante
+893,2023,14,Palmeiras,Bahia,6,1,V. Mandante
+894,2023,14,Cuiabá,Bahia,2,0,V. Mandante
+895,2023,14,Atlético-MG,Fluminense,2,2,Empate
+896,2023,14,Internacional,Cuiabá,1,1,Empate
+897,2023,14,Corinthians,Coritiba,0,0,Empate
+898,2023,14,Athletico-PR,América-MG,0,1,V. Visitante
+899,2023,14,São Paulo,Vasco,2,2,Empate
+900,2023,14,Corinthians,Cuiabá,3,0,V. Mandante
+901,2023,15,Palmeiras,São Paulo,0,1,V. Visitante
+902,2023,15,São Paulo,Athletico-PR,1,3,V. Visitante
+903,2023,15,Goiás,Bahia,2,0,V. Mandante
+904,2023,15,Vasco,Bahia,2,0,V. Mandante
+905,2023,15,São Paulo,Internacional,0,2,V. Visitante
+906,2023,15,Cuiabá,América-MG,0,1,V. Visitante
+907,2023,15,Botafogo,Goiás,2,0,V. Mandante
+908,2023,15,Palmeiras,Fortaleza,4,0,V. Mandante
+909,2023,15,Flamengo,Cuiabá,0,0,Empate
+910,2023,15,Atlético-MG,São Paulo,5,1,V. Mandante
+911,2023,16,Internacional,América-MG,1,0,V. Mandante
+912,2023,16,Athletico-PR,Vasco,2,2,Empate
+913,2023,16,Fluminense,Coritiba,0,0,Empate
+914,2023,16,Atlético-MG,América-MG,4,0,V. Mandante
+915,2023,16,Santos,Bahia,1,0,V. Mandante
+916,2023,16,Atlético-MG,Corinthians,1,0,V. Mandante
+917,2023,16,Grêmio,Flamengo,1,0,V. Mandante
+918,2023,16,Palmeiras,Grêmio,4,3,V. Mandante
+919,2023,16,Goiás,Coritiba,0,0,Empate
+920,2023,16,Bahia,Coritiba,2,2,Empate
+921,2023,17,Red Bull Bragantino,Athletico-PR,2,0,V. Mandante
+922,2023,17,Flamengo,Athletico-PR,1,0,V. Mandante
+923,2023,17,Flamengo,Fluminense,2,1,V. Mandante
+924,2023,17,Botafogo,Cuiabá,3,1,V. Mandante
+925,2023,17,Atlético-MG,Goiás,2,1,V. Mandante
+926,2023,17,Red Bull Bragantino,Corinthians,2,1,V. Mandante
+927,2023,17,Fortaleza,Vasco,2,0,V. Mandante
+928,2023,17,Fortaleza,Coritiba,3,1,V. Mandante
+929,2023,17,Flamengo,América-MG,2,0,V. Mandante
+930,2023,17,Grêmio,São Paulo,4,3,V. Mandante
+931,2023,18,Palmeiras,Corinthians,1,0,V. Mandante
+932,2023,18,São Paulo,América-MG,0,0,Empate
+933,2023,18,Palmeiras,Flamengo,1,1,Empate
+934,2023,18,Cuiabá,Goiás,0,0,Empate
+935,2023,18,Grêmio,Cuiabá,1,0,V. Mandante
+936,2023,18,Goiás,Cruzeiro,3,2,V. Mandante
+937,2023,18,Fluminense,Santos,2,0,V. Mandante
+938,2023,18,São Paulo,Cuiabá,2,1,V. Mandante
+939,2023,18,Flamengo,Fortaleza,2,2,Empate
+940,2023,18,Grêmio,Red Bull Bragantino,1,1,Empate
+941,2023,19,Grêmio,Fluminense,1,4,V. Visitante
+942,2023,19,Botafogo,Athletico-PR,2,1,V. Mandante
+943,2023,19,Internacional,Corinthians,4,1,V. Mandante
+944,2023,19,Red Bull Bragantino,Cruzeiro,0,1,V. Visitante
+945,2023,19,Palmeiras,Fluminense,2,1,V. Mandante
+946,2023,19,Palmeiras,Athletico-PR,3,1,V. Mandante
+947,2023,19,Cuiabá,Cruzeiro,0,3,V. Visitante
+948,2023,19,Flamengo,Bahia,1,1,Empate
+949,2023,19,Palmeiras,Cuiabá,3,0,V. Mandante
+950,2023,19,Goiás,Vasco,1,1,Empate
+951,2023,20,Fortaleza,Atlético-MG,4,2,V. Mandante
+952,2023,20,América-MG,Internacional,0,0,Empate
+953,2023,20,Fortaleza,Flamengo,2,2,Empate
+954,2023,20,Atlético-MG,Botafogo,4,2,V. Mandante
+955,2023,20,Goiás,Botafogo,0,1,V. Visitante
+956,2023,20,Athletico-PR,Internacional,1,2,V. Visitante
+957,2023,20,Coritiba,Fluminense,0,2,V. Visitante
+958,2023,20,Cuiabá,Atlético-MG,1,3,V. Visitante
+959,2023,20,Goiás,Atlético-MG,1,3,V. Visitante
+960,2023,20,Corinthians,Fluminense,0,0,Empate
+961,2023,21,Red Bull Bragantino,Atlético-MG,2,0,V. Mandante
+962,2023,21,Atlético-MG,Palmeiras,0,2,V. Visitante
+963,2023,21,Goiás,América-MG,2,1,V. Mandante
+964,2023,21,Bahia,Vasco,3,0,V. Mandante
+965,2023,21,Goiás,Cuiabá,0,0,Empate
+966,2023,21,Cruzeiro,Cuiabá,1,1,Empate
+967,2023,21,Grêmio,Palmeiras,0,1,V. Visitante
+968,2023,21,Corinthians,Botafogo,2,0,V. Mandante
+969,2023,21,Athletico-PR,Red Bull Bragantino,3,0,V. Mandante
+970,2023,21,Coritiba,Atlético-MG,0,0,Empate
+971,2023,22,Fluminense,Palmeiras,3,1,V. Mandante
+972,2023,22,Coritiba,América-MG,1,2,V. Visitante
+973,2023,22,Goiás,São Paulo,2,2,Empate
+974,2023,22,Coritiba,Goiás,1,1,Empate
+975,2023,22,Vasco,América-MG,0,0,Empate
+976,2023,22,América-MG,Fluminense,0,5,V. Visitante
+977,2023,22,Red Bull Bragantino,Botafogo,2,0,V. Mandante
+978,2023,22,Vasco,Goiás,0,0,Empate
+979,2023,22,Vasco,Internacional,3,0,V. Mandante
+980,2023,22,Coritiba,Corinthians,0,3,V. Visitante
+981,2023,23,Athletico-PR,Flamengo,4,3,V. Mandante
+982,2023,23,Cuiabá,Athletico-PR,2,1,V. Mandante
+983,2023,23,Coritiba,Cruzeiro,0,0,Empate
+984,2023,23,São Paulo,Botafogo,0,1,V. Visitante
+985,2023,23,Cuiabá,São Paulo,0,0,Empate
+986,2023,23,Cuiabá,Corinthians,0,0,Empate
+987,2023,23,Red Bull Bragantino,Grêmio,1,2,V. Visitante
+988,2023,23,Internacional,São Paulo,1,0,V. Mandante
+989,2023,23,Cruzeiro,Red Bull Bragantino,0,1,V. Visitante
+990,2023,23,Flamengo,Atlético-MG,3,1,V. Mandante
+991,2023,24,Bahia,Atlético-MG,0,0,Empate
+992,2023,24,Coritiba,Santos,0,1,V. Visitante
+993,2023,24,Bahia,Corinthians,0,3,V. Visitante
+994,2023,24,Cuiabá,Botafogo,2,1,V. Mandante
+995,2023,24,Corinthians,Grêmio,1,1,Empate
+996,2023,24,Grêmio,Botafogo,2,2,Empate
+997,2023,24,Vasco,Fortaleza,1,0,V. Mandante
+998,2023,24,Bahia,Cuiabá,1,0,V. Mandante
+999,2023,24,Goiás,Fortaleza,0,1,V. Visitante
+1000,2023,24,Santos,Cuiabá,1,2,V. Visitante
+1001,2023,25,Santos,Internacional,2,2,Empate
+1002,2023,25,Fluminense,São Paulo,1,2,V. Visitante
+1003,2023,25,Fluminense,Atlético-MG,0,2,V. Visitante
+1004,2023,25,Goiás,Internacional,1,2,V. Visitante
+1005,2023,25,Cruzeiro,Goiás,2,0,V. Mandante
+1006,2023,25,América-MG,Fortaleza,1,0,V. Mandante
+1007,2023,25,Santos,Grêmio,1,1,Empate
+1008,2023,25,Flamengo,Grêmio,2,1,V. Mandante
+1009,2023,25,São Paulo,Red Bull Bragantino,3,0,V. Mandante
+1010,2023,25,Coritiba,Palmeiras,1,1,Empate
+1011,2023,26,Vasco,Flamengo,0,1,V. Visitante
+1012,2023,26,Santos,Palmeiras,1,1,Empate
+1013,2023,26,América-MG,São Paulo,2,0,V. Mandante
+1014,2023,26,Internacional,Atlético-MG,2,5,V. Visitante
+1015,2023,26,Athletico-PR,Corinthians,0,1,V. Visitante
+1016,2023,26,Cruzeiro,Botafogo,1,2,V. Visitante
+1017,2023,26,Cruzeiro,Internacional,0,2,V. Visitante
+1018,2023,26,Fortaleza,Corinthians,2,0,V. Mandante
+1019,2023,26,Bahia,Botafogo,1,1,Empate
+1020,2023,26,América-MG,Palmeiras,1,2,V. Visitante
+1021,2023,27,Corinthians,Palmeiras,1,2,V. Visitante
+1022,2023,27,Bahia,Flamengo,2,0,V. Mandante
+1023,2023,27,Bahia,Fluminense,2,1,V. Mandante
+1024,2023,27,Bahia,Palmeiras,1,2,V. Visitante
+1025,2023,27,São Paulo,Palmeiras,1,2,V. Visitante
+1026,2023,27,Internacional,Botafogo,2,1,V. Mandante
+1027,2023,27,Cuiabá,Internacional,2,2,Empate
+1028,2023,27,Vasco,Cuiabá,1,0,V. Mandante
+1029,2023,27,Fluminense,Flamengo,1,3,V. Visitante
+1030,2023,27,Goiás,Red Bull Bragantino,1,2,V. Visitante
+1031,2023,28,Red Bull Bragantino,Flamengo,2,3,V. Visitante
+1032,2023,28,América-MG,Red Bull Bragantino,0,1,V. Visitante
+1033,2023,28,Coritiba,Flamengo,0,0,Empate
+1034,2023,28,Internacional,Grêmio,3,0,V. Mandante
+1035,2023,28,Coritiba,São Paulo,2,0,V. Mandante
+1036,2023,28,Cruzeiro,Athletico-PR,0,0,Empate
+1037,2023,28,Fortaleza,Athletico-PR,3,2,V. Mandante
+1038,2023,28,Cruzeiro,Palmeiras,2,6,V. Visitante
+1039,2023,28,Corinthians,Atlético-MG,0,1,V. Visitante
+1040,2023,28,Bahia,Goiás,0,0,Empate
+1041,2023,29,Palmeiras,Botafogo,1,5,V. Visitante
+1042,2023,29,Goiás,Palmeiras,1,2,V. Visitante
+1043,2023,29,Vasco,Santos,1,0,V. Mandante
+1044,2023,29,Fortaleza,Red Bull Bragantino,1,2,V. Visitante
+1045,2023,29,Goiás,Grêmio,1,3,V. Visitante
+1046,2023,29,Fortaleza,São Paulo,1,2,V. Visitante
+1047,2023,29,Coritiba,Internacional,0,1,V. Visitante
+1048,2023,29,Athletico-PR,Botafogo,0,2,V. Visitante
+1049,2023,29,Internacional,Flamengo,3,5,V. Visitante
+1050,2023,29,São Paulo,Grêmio,2,1,V. Mandante
+1051,2023,30,Cruzeiro,Flamengo,1,1,Empate
+1052,2023,30,Goiás,Flamengo,0,1,V. Visitante
+1053,2023,30,Flamengo,Palmeiras,5,0,V. Mandante
+1054,2023,30,Vasco,Corinthians,1,1,Empate
+1055,2023,30,Athletico-PR,Fluminense,2,1,V. Mandante
+1056,2023,30,Fluminense,Red Bull Bragantino,1,2,V. Visitante
+1057,2023,30,Cruzeiro,São Paulo,0,1,V. Visitante
+1058,2023,30,Vasco,Cruzeiro,2,2,Empate
+1059,2023,30,Santos,Atlético-MG,1,0,V. Mandante
+1060,2023,30,Santos,Fortaleza,2,2,Empate
+1061,2023,31,Cuiabá,Grêmio,1,1,Empate
+1062,2023,31,Santos,São Paulo,1,2,V. Visitante
+1063,2023,31,Coritiba,Fortaleza,1,0,V. Mandante
+1064,2023,31,Cruzeiro,Fortaleza,1,1,Empate
+1065,2023,31,Vasco,Athletico-PR,1,1,Empate
+1066,2023,31,Goiás,Corinthians,2,0,V. Mandante
+1067,2023,31,Santos,Flamengo,0,0,Empate
+1068,2023,31,Athletico-PR,Grêmio,0,1,V. Visitante
+1069,2023,31,Santos,Red Bull Bragantino,0,0,Empate
+1070,2023,31,Santos,Athletico-PR,0,0,Empate
+1071,2023,32,Fortaleza,Internacional,0,1,V. Visitante
+1072,2023,32,Cruzeiro,Corinthians,0,1,V. Visitante
+1073,2023,32,América-MG,Flamengo,0,0,Empate
+1074,2023,32,Cruzeiro,Atlético-MG,2,0,V. Mandante
+1075,2023,32,Vasco,Botafogo,1,1,Empate
+1076,2023,32,Santos,Corinthians,2,0,V. Mandante
+1077,2023,32,Cuiabá,Palmeiras,0,1,V. Visitante
+1078,2023,32,Vasco,Palmeiras,3,3,Empate
+1079,2023,32,Cuiabá,Flamengo,0,0,Empate
+1080,2023,32,América-MG,Botafogo,1,2,V. Visitante
+1081,2023,33,Vasco,Red Bull Bragantino,1,4,V. Visitante
+1082,2023,33,Fortaleza,Palmeiras,0,2,V. Visitante
+1083,2023,33,América-MG,Athletico-PR,0,1,V. Visitante
+1084,2023,33,Internacional,Palmeiras,2,0,V. Mandante
+1085,2023,33,São Paulo,Atlético-MG,3,0,V. Mandante
+1086,2023,33,Bahia,São Paulo,2,1,V. Mandante
+1087,2023,33,Athletico-PR,Palmeiras,1,1,Empate
+1088,2023,33,Red Bull Bragantino,Palmeiras,3,0,V. Mandante
+1089,2023,33,Cuiabá,Red Bull Bragantino,0,0,Empate
+1090,2023,33,Coritiba,Cuiabá,2,0,V. Mandante
+1091,2023,34,Vasco,Fluminense,1,0,V. Mandante
+1092,2023,34,Bahia,Fortaleza,2,2,Empate
+1093,2023,34,Cruzeiro,América-MG,1,0,V. Mandante
+1094,2023,34,América-MG,Grêmio,2,2,Empate
+1095,2023,34,Corinthians,Flamengo,1,1,Empate
+1096,2023,34,Flamengo,Botafogo,1,1,Empate
+1097,2023,34,Goiás,Athletico-PR,1,0,V. Mandante
+1098,2023,34,Bahia,América-MG,3,1,V. Mandante
+1099,2023,34,Coritiba,Grêmio,0,0,Empate
+1100,2023,34,Cruzeiro,Santos,3,1,V. Mandante
+1101,2023,35,Corinthians,Internacional,2,1,V. Mandante
+1102,2023,35,Corinthians,Red Bull Bragantino,2,1,V. Mandante
+1103,2023,35,Santos,Botafogo,0,3,V. Visitante
+1104,2023,35,Cruzeiro,Fluminense,1,1,Empate
+1105,2023,35,Internacional,Red Bull Bragantino,3,0,V. Mandante
+1106,2023,35,Bahia,Grêmio,2,0,V. Mandante
+1107,2023,35,Fortaleza,Grêmio,3,0,V. Mandante
+1108,2023,35,Cuiabá,Fluminense,0,2,V. Visitante
+1109,2023,35,Cruzeiro,Grêmio,3,0,V. Mandante
+1110,2023,35,América-MG,Cuiabá,2,0,V. Mandante
+1111,2023,36,Vasco,São Paulo,0,4,V. Visitante
+1112,2023,36,Corinthians,São Paulo,1,2,V. Visitante
+1113,2023,36,Coritiba,Vasco,1,0,V. Mandante
+1114,2023,36,América-MG,Corinthians,2,2,Empate
+1115,2023,36,Bahia,Athletico-PR,1,1,Empate
+1116,2023,36,Vasco,Atlético-MG,1,4,V. Visitante
+1117,2023,36,Athletico-PR,Atlético-MG,0,0,Empate
+1118,2023,36,Athletico-PR,São Paulo,2,1,V. Mandante
+1119,2023,36,Bahia,Cruzeiro,2,1,V. Mandante
+1120,2023,36,Fluminense,Botafogo,2,0,V. Mandante
+1121,2023,37,Goiás,Fluminense,2,0,V. Mandante
+1122,2023,37,Santos,Fluminense,0,1,V. Visitante
+1123,2023,37,Vasco,Grêmio,1,0,V. Mandante
+1124,2023,37,São Paulo,Flamengo,2,0,V. Mandante
+1125,2023,37,Coritiba,Red Bull Bragantino,1,2,V. Visitante
+1126,2023,37,América-MG,Atlético-MG,1,1,Empate
+1127,2023,37,América-MG,Santos,1,0,V. Mandante
+1128,2023,37,Internacional,Fluminense,3,1,V. Mandante
+1129,2023,37,Fortaleza,Fluminense,0,1,V. Visitante
+1130,2023,37,Bahia,Santos,5,1,V. Mandante
+1131,2023,38,Bahia,Internacional,2,1,V. Mandante
+1132,2023,38,Coritiba,Botafogo,1,3,V. Visitante
+1133,2023,38,Goiás,Santos,0,0,Empate
+1134,2023,38,Bahia,Red Bull Bragantino,2,3,V. Visitante
+1135,2023,38,Atlético-MG,Grêmio,2,0,V. Mandante
+1136,2023,38,Coritiba,Bahia,3,1,V. Mandante
+1137,2023,38,Cuiabá,Fortaleza,0,4,V. Visitante
+1138,2023,38,Fluminense,Grêmio,1,2,V. Visitante
+1139,2023,38,Coritiba,Athletico-PR,1,0,V. Mandante
+1140,2023,38,Fortaleza,Botafogo,1,3,V. Visitante
+1141,2024,1,Criciúma,Vitória,0,0,Empate
+1142,2024,1,Flamengo,São Paulo,4,3,V. Mandante
+1143,2024,1,Fortaleza,Cuiabá,3,1,V. Mandante
+1144,2024,1,Cruzeiro,Atlético-MG,0,0,Empate
+1145,2024,1,Bahia,Juventude,2,2,Empate
+1146,2024,1,Vasco,Athletico-PR,0,3,V. Visitante
+1147,2024,1,Fluminense,Juventude,1,1,Empate
+1148,2024,1,Vasco,RB Bragantino,0,2,V. Visitante
+1149,2024,1,Flamengo,Criciúma,4,1,V. Mandante
+1150,2024,1,São Paulo,Atlético-GO,0,0,Empate
+1151,2024,2,Flamengo,Vasco,6,1,V. Mandante
+1152,2024,2,Fluminense,Atlético-MG,3,1,V. Mandante
+1153,2024,2,Grêmio,Cuiabá,3,1,V. Mandante
+1154,2024,2,Corinthians,Bahia,3,0,V. Mandante
+1155,2024,2,Flamengo,RB Bragantino,1,1,Empate
+1156,2024,2,Grêmio,Atlético-GO,0,0,Empate
+1157,2024,2,Cruzeiro,Atlético-GO,0,0,Empate
+1158,2024,2,Athletico-PR,Bahia,4,1,V. Mandante
+1159,2024,2,Bahia,Criciúma,1,0,V. Mandante
+1160,2024,2,Internacional,Atlético-MG,3,0,V. Mandante
+1161,2024,3,Atlético-MG,Juventude,2,0,V. Mandante
+1162,2024,3,Fortaleza,Atlético-MG,4,2,V. Mandante
+1163,2024,3,Corinthians,Vitória,1,0,V. Mandante
+1164,2024,3,Fluminense,Cuiabá,3,1,V. Mandante
+1165,2024,3,Botafogo,Cruzeiro,0,0,Empate
+1166,2024,3,Internacional,Juventude,2,1,V. Mandante
+1167,2024,3,Atlético-MG,Athletico-PR,6,1,V. Mandante
+1168,2024,3,Internacional,São Paulo,2,0,V. Mandante
+1169,2024,3,Vasco,Vitória,2,2,Empate
+1170,2024,3,Flamengo,Bahia,4,2,V. Mandante
+1171,2024,4,Fluminense,Criciúma,1,1,Empate
+1172,2024,4,Atlético-MG,Criciúma,1,1,Empate
+1173,2024,4,Fortaleza,Atlético-GO,3,0,V. Mandante
+1174,2024,4,Fluminense,Vitória,5,1,V. Mandante
+1175,2024,4,Fortaleza,Grêmio,2,1,V. Mandante
+1176,2024,4,Atlético-MG,RB Bragantino,1,0,V. Mandante
+1177,2024,4,Cuiabá,Vitória,3,1,V. Mandante
+1178,2024,4,Fortaleza,Criciúma,5,1,V. Mandante
+1179,2024,4,Bahia,Cuiabá,2,0,V. Mandante
+1180,2024,4,Botafogo,São Paulo,1,3,V. Visitante
+1181,2024,5,Botafogo,RB Bragantino,4,3,V. Mandante
+1182,2024,5,Internacional,Athletico-PR,1,1,Empate
+1183,2024,5,Vasco,Grêmio,1,0,V. Mandante
+1184,2024,5,Fortaleza,Corinthians,0,0,Empate
+1185,2024,5,Flamengo,Cuiabá,1,0,V. Mandante
+1186,2024,5,Palmeiras,Internacional,4,0,V. Mandante
+1187,2024,5,São Paulo,Athletico-PR,1,1,Empate
+1188,2024,5,Corinthians,RB Bragantino,2,0,V. Mandante
+1189,2024,5,Cruzeiro,Vasco,3,1,V. Mandante
+1190,2024,5,Botafogo,Athletico-PR,5,0,V. Mandante
+1191,2024,6,Athletico-PR,Juventude,1,0,V. Mandante
+1192,2024,6,Vasco,Atlético-MG,1,2,V. Visitante
+1193,2024,6,Bahia,Vitória,2,2,Empate
+1194,2024,6,Fluminense,Bahia,2,1,V. Mandante
+1195,2024,6,Bahia,Grêmio,1,2,V. Visitante
+1196,2024,6,Fortaleza,São Paulo,0,1,V. Visitante
+1197,2024,6,RB Bragantino,Vitória,3,0,V. Mandante
+1198,2024,6,Flamengo,Internacional,1,2,V. Visitante
+1199,2024,6,São Paulo,Criciúma,3,0,V. Mandante
+1200,2024,6,Atlético-MG,Grêmio,3,2,V. Mandante
+1201,2024,7,São Paulo,Atlético-MG,2,2,Empate
+1202,2024,7,Flamengo,Atlético-MG,2,1,V. Mandante
+1203,2024,7,RB Bragantino,Grêmio,1,1,Empate
+1204,2024,7,Grêmio,Criciúma,0,0,Empate
+1205,2024,7,Fluminense,Athletico-PR,1,1,Empate
+1206,2024,7,Vasco,Atlético-GO,0,0,Empate
+1207,2024,7,Internacional,Bahia,2,1,V. Mandante
+1208,2024,7,Atlético-MG,Bahia,2,2,Empate
+1209,2024,7,Vasco,Bahia,1,1,Empate
+1210,2024,7,São Paulo,Grêmio,3,1,V. Mandante
+1211,2024,8,Cruzeiro,Bahia,2,0,V. Mandante
+1212,2024,8,Botafogo,Fluminense,3,1,V. Mandante
+1213,2024,8,Corinthians,Cuiabá,3,0,V. Mandante
+1214,2024,8,Palmeiras,Athletico-PR,3,1,V. Mandante
+1215,2024,8,Corinthians,Grêmio,0,0,Empate
+1216,2024,8,Criciúma,Atlético-GO,0,0,Empate
+1217,2024,8,Flamengo,Fortaleza,3,0,V. Mandante
+1218,2024,8,Flamengo,Juventude,2,0,V. Mandante
+1219,2024,8,Botafogo,Internacional,1,0,V. Mandante
+1220,2024,8,Bahia,RB Bragantino,1,1,Empate
+1221,2024,9,Botafogo,Flamengo,3,2,V. Mandante
+1222,2024,9,Cruzeiro,Grêmio,2,0,V. Mandante
+1223,2024,9,Juventude,Criciúma,0,0,Empate
+1224,2024,9,Internacional,RB Bragantino,0,2,V. Visitante
+1225,2024,9,Cruzeiro,Juventude,2,2,Empate
+1226,2024,9,Flamengo,Fluminense,7,1,V. Mandante
+1227,2024,9,Juventude,Vitória,0,1,V. Visitante
+1228,2024,9,Botafogo,Juventude,2,0,V. Mandante
+1229,2024,9,Athletico-PR,Criciúma,2,2,Empate
+1230,2024,9,RB Bragantino,Juventude,2,0,V. Mandante
+1231,2024,10,São Paulo,Vasco,2,2,Empate
+1232,2024,10,Flamengo,Grêmio,0,0,Empate
+1233,2024,10,Fluminense,Grêmio,1,1,Empate
+1234,2024,10,RB Bragantino,Atlético-GO,1,0,V. Mandante
+1235,2024,10,Vasco,Corinthians,4,0,V. Mandante
+1236,2024,10,Cuiabá,Criciúma,0,0,Empate
+1237,2024,10,Flamengo,Atlético-GO,2,1,V. Mandante
+1238,2024,10,Palmeiras,Bahia,1,2,V. Visitante
+1239,2024,10,Internacional,Criciúma,5,0,V. Mandante
+1240,2024,10,São Paulo,Cruzeiro,0,0,Empate
+1241,2024,11,Flamengo,Vitória,3,2,V. Mandante
+1242,2024,11,Juventude,Atlético-GO,5,0,V. Mandante
+1243,2024,11,Internacional,Cruzeiro,1,1,Empate
+1244,2024,11,Fortaleza,RB Bragantino,2,2,Empate
+1245,2024,11,São Paulo,Vitória,0,1,V. Visitante
+1246,2024,11,Botafogo,Atlético-MG,4,2,V. Mandante
+1247,2024,11,Athletico-PR,Corinthians,1,1,Empate
+1248,2024,11,Palmeiras,Vitória,3,1,V. Mandante
+1249,2024,11,Grêmio,Juventude,2,0,V. Mandante
+1250,2024,11,Cruzeiro,Criciúma,2,0,V. Mandante
+1251,2024,12,Internacional,Cuiabá,2,0,V. Mandante
+1252,2024,12,Athletico-PR,RB Bragantino,1,1,Empate
+1253,2024,12,Fluminense,RB Bragantino,1,1,Empate
+1254,2024,12,Palmeiras,Vasco,2,0,V. Mandante
+1255,2024,12,RB Bragantino,Criciúma,0,1,V. Visitante
+1256,2024,12,Fortaleza,Bahia,0,1,V. Visitante
+1257,2024,12,Cruzeiro,Cuiabá,3,0,V. Mandante
+1258,2024,12,Palmeiras,Cruzeiro,3,0,V. Mandante
+1259,2024,12,Cruzeiro,Vitória,2,2,Empate
+1260,2024,12,Fortaleza,Vasco,3,1,V. Mandante
+1261,2024,13,Palmeiras,Atlético-GO,1,0,V. Mandante
+1262,2024,13,Cruzeiro,Corinthians,3,1,V. Mandante
+1263,2024,13,Botafogo,Grêmio,0,2,V. Visitante
+1264,2024,13,Athletico-PR,Grêmio,4,0,V. Mandante
+1265,2024,13,São Paulo,Cuiabá,4,0,V. Mandante
+1266,2024,13,Cruzeiro,RB Bragantino,1,1,Empate
+1267,2024,13,Palmeiras,Corinthians,3,0,V. Mandante
+1268,2024,13,São Paulo,Juventude,0,0,Empate
+1269,2024,13,Fortaleza,Fluminense,1,3,V. Visitante
+1270,2024,13,Palmeiras,RB Bragantino,1,2,V. Visitante
+1271,2024,14,Vasco,Criciúma,1,0,V. Mandante
+1272,2024,14,Flamengo,Corinthians,4,1,V. Mandante
+1273,2024,14,Vasco,Cuiabá,3,0,V. Mandante
+1274,2024,14,Palmeiras,Fluminense,3,0,V. Mandante
+1275,2024,14,Flamengo,Athletico-PR,2,1,V. Mandante
+1276,2024,14,Bahia,Atlético-GO,2,1,V. Mandante
+1277,2024,14,Botafogo,Palmeiras,0,4,V. Visitante
+1278,2024,14,Fortaleza,Internacional,1,2,V. Visitante
+1279,2024,14,Grêmio,Vitória,2,1,V. Mandante
+1280,2024,14,Botafogo,Fortaleza,2,2,Empate
+1281,2024,15,Fortaleza,Athletico-PR,2,0,V. Mandante
+1282,2024,15,São Paulo,Bahia,2,0,V. Mandante
+1283,2024,15,Atlético-MG,Corinthians,1,1,Empate
+1284,2024,15,Fortaleza,Juventude,3,0,V. Mandante
+1285,2024,15,Palmeiras,Atlético-MG,0,2,V. Visitante
+1286,2024,15,Fluminense,Atlético-GO,0,1,V. Visitante
+1287,2024,15,Flamengo,Cruzeiro,5,1,V. Mandante
+1288,2024,15,Palmeiras,Grêmio,2,1,V. Mandante
+1289,2024,15,RB Bragantino,Cuiabá,3,0,V. Mandante
+1290,2024,15,Atlético-GO,Vitória,1,0,V. Mandante
+1291,2024,16,Palmeiras,Criciúma,2,0,V. Mandante
+1292,2024,16,Botafogo,Bahia,2,0,V. Mandante
+1293,2024,16,Athletico-PR,Vitória,1,1,Empate
+1294,2024,16,Botafogo,Cuiabá,2,1,V. Mandante
+1295,2024,16,Botafogo,Vasco,0,0,Empate
+1296,2024,16,Internacional,Grêmio,2,0,V. Mandante
+1297,2024,16,Vasco,Fluminense,3,0,V. Mandante
+1298,2024,16,Fluminense,Corinthians,1,0,V. Mandante
+1299,2024,16,Atlético-MG,Atlético-GO,0,1,V. Visitante
+1300,2024,16,São Paulo,Corinthians,1,2,V. Visitante
+1301,2024,17,Botafogo,Corinthians,1,0,V. Mandante
+1302,2024,17,Internacional,Vitória,2,0,V. Mandante
+1303,2024,17,São Paulo,Fluminense,4,0,V. Mandante
+1304,2024,17,Internacional,Fluminense,2,2,Empate
+1305,2024,17,Athletico-PR,Atlético-GO,0,1,V. Visitante
+1306,2024,17,Internacional,Atlético-GO,2,0,V. Mandante
+1307,2024,17,Palmeiras,Cuiabá,1,1,Empate
+1308,2024,17,Cruzeiro,Fluminense,2,1,V. Mandante
+1309,2024,17,Vasco,Juventude,1,2,V. Visitante
+1310,2024,17,Fortaleza,Vitória,2,1,V. Mandante
+1311,2024,18,Juventude,Cuiabá,4,1,V. Mandante
+1312,2024,18,Botafogo,Criciúma,4,0,V. Mandante
+1313,2024,18,Corinthians,Criciúma,1,0,V. Mandante
+1314,2024,18,Corinthians,Atlético-GO,2,0,V. Mandante
+1315,2024,18,Internacional,Vasco,2,0,V. Mandante
+1316,2024,18,Botafogo,Atlético-GO,4,0,V. Mandante
+1317,2024,18,Palmeiras,Juventude,4,1,V. Mandante
+1318,2024,18,Athletico-PR,Cuiabá,0,2,V. Visitante
+1319,2024,18,Internacional,Corinthians,1,1,Empate
+1320,2024,18,Cruzeiro,Athletico-PR,1,1,Empate
+1321,2024,19,Botafogo,Vitória,1,0,V. Mandante
+1322,2024,19,Corinthians,Juventude,1,3,V. Visitante
+1323,2024,19,Palmeiras,Flamengo,1,1,Empate
+1324,2024,19,São Paulo,RB Bragantino,3,1,V. Mandante
+1325,2024,19,Atlético-MG,Cuiabá,3,3,Empate
+1326,2024,19,Cuiabá,Atlético-GO,2,0,V. Mandante
+1327,2024,19,Fortaleza,Cruzeiro,0,0,Empate
+1328,2024,19,Palmeiras,São Paulo,5,2,V. Mandante
+1329,2024,19,Atlético-MG,Vitória,2,1,V. Mandante
+1330,2024,19,Palmeiras,Fortaleza,2,1,V. Mandante
+1331,2024,20,Criciúma,Juventude,3,1,V. Mandante
+1332,2024,20,Fluminense,São Paulo,1,1,Empate
+1333,2024,20,Atlético-GO,Athletico-PR,0,0,Empate
+1334,2024,20,Grêmio,São Paulo,3,1,V. Mandante
+1335,2024,20,Internacional,Botafogo,6,2,V. Mandante
+1336,2024,20,Vitória,Fluminense,0,1,V. Visitante
+1337,2024,20,Fluminense,Cruzeiro,1,0,V. Mandante
+1338,2024,20,Criciúma,Flamengo,0,0,Empate
+1339,2024,20,Atlético-GO,Internacional,0,2,V. Visitante
+1340,2024,20,São Paulo,Palmeiras,2,0,V. Mandante
+1341,2024,21,Juventude,Fluminense,4,2,V. Mandante
+1342,2024,21,Atlético-GO,Juventude,2,1,V. Mandante
+1343,2024,21,Atlético-GO,Palmeiras,2,3,V. Visitante
+1344,2024,21,Bahia,Botafogo,2,2,Empate
+1345,2024,21,Fluminense,Fortaleza,1,2,V. Visitante
+1346,2024,21,Vitória,São Paulo,0,3,V. Visitante
+1347,2024,21,Atlético-GO,Cuiabá,1,0,V. Mandante
+1348,2024,21,Vitória,Cuiabá,1,0,V. Mandante
+1349,2024,21,Cuiabá,Flamengo,3,0,V. Mandante
+1350,2024,21,RB Bragantino,Palmeiras,2,0,V. Mandante
+1351,2024,22,Juventude,Flamengo,0,3,V. Visitante
+1352,2024,22,Grêmio,Botafogo,1,2,V. Visitante
+1353,2024,22,Vitória,Juventude,1,0,V. Mandante
+1354,2024,22,Flamengo,Palmeiras,4,0,V. Mandante
+1355,2024,22,Atlético-MG,Vasco,1,0,V. Mandante
+1356,2024,22,Cuiabá,Cruzeiro,1,2,V. Visitante
+1357,2024,22,Cuiabá,Bahia,0,1,V. Visitante
+1358,2024,22,Juventude,Corinthians,0,1,V. Visitante
+1359,2024,22,Atlético-GO,Fluminense,2,2,Empate
+1360,2024,22,Vitória,Criciúma,1,0,V. Mandante
+1361,2024,23,RB Bragantino,Athletico-PR,0,0,Empate
+1362,2024,23,Criciúma,Corinthians,0,2,V. Visitante
+1363,2024,23,Bahia,Atlético-MG,4,1,V. Mandante
+1364,2024,23,Fortaleza,Palmeiras,2,0,V. Mandante
+1365,2024,23,RB Bragantino,Botafogo,3,0,V. Mandante
+1366,2024,23,São Paulo,Fortaleza,0,1,V. Visitante
+1367,2024,23,Athletico-PR,Fluminense,1,1,Empate
+1368,2024,23,São Paulo,Internacional,2,1,V. Mandante
+1369,2024,23,Corinthians,Palmeiras,0,1,V. Visitante
+1370,2024,23,Cuiabá,Botafogo,1,2,V. Visitante
+1371,2024,24,Bahia,Fluminense,0,0,Empate
+1372,2024,24,Criciúma,São Paulo,1,0,V. Mandante
+1373,2024,24,Juventude,Botafogo,1,3,V. Visitante
+1374,2024,24,Corinthians,Internacional,2,0,V. Mandante
+1375,2024,24,Juventude,Fortaleza,2,2,Empate
+1376,2024,24,Bahia,Cruzeiro,0,2,V. Visitante
+1377,2024,24,Atlético-GO,Grêmio,5,1,V. Mandante
+1378,2024,24,Juventude,Internacional,2,1,V. Mandante
+1379,2024,24,Criciúma,Athletico-PR,0,2,V. Visitante
+1380,2024,24,Atlético-MG,São Paulo,3,4,V. Visitante
+1381,2024,25,Fortaleza,Flamengo,2,1,V. Mandante
+1382,2024,25,Athletico-PR,Fortaleza,3,1,V. Mandante
+1383,2024,25,Cuiabá,Corinthians,0,0,Empate
+1384,2024,25,Vitória,Fortaleza,1,1,Empate
+1385,2024,25,Fluminense,Flamengo,7,1,V. Mandante
+1386,2024,25,Cuiabá,Vasco,1,2,V. Visitante
+1387,2024,25,Vasco,São Paulo,2,1,V. Mandante
+1388,2024,25,Cuiabá,São Paulo,1,2,V. Visitante
+1389,2024,25,Corinthians,Botafogo,0,3,V. Visitante
+1390,2024,25,Atlético-GO,Corinthians,1,2,V. Visitante
+1391,2024,26,RB Bragantino,Fortaleza,6,2,V. Mandante
+1392,2024,26,Criciúma,Fluminense,1,0,V. Mandante
+1393,2024,26,Criciúma,Bahia,1,0,V. Mandante
+1394,2024,26,Corinthians,Flamengo,0,2,V. Visitante
+1395,2024,26,Cruzeiro,São Paulo,3,2,V. Mandante
+1396,2024,26,Corinthians,Fortaleza,2,3,V. Visitante
+1397,2024,26,Grêmio,Bahia,0,2,V. Visitante
+1398,2024,26,Juventude,RB Bragantino,2,1,V. Mandante
+1399,2024,26,Bahia,Athletico-PR,1,0,V. Mandante
+1400,2024,26,Criciúma,Palmeiras,1,1,Empate
+1401,2024,27,Grêmio,Fluminense,3,1,V. Mandante
+1402,2024,27,Grêmio,RB Bragantino,3,1,V. Mandante
+1403,2024,27,Vitória,Grêmio,2,0,V. Mandante
+1404,2024,27,Fluminense,Botafogo,0,4,V. Visitante
+1405,2024,27,Criciúma,Botafogo,4,1,V. Mandante
+1406,2024,27,Atlético-GO,Fortaleza,0,0,Empate
+1407,2024,27,Grêmio,Palmeiras,1,7,V. Visitante
+1408,2024,27,Corinthians,São Paulo,3,1,V. Mandante
+1409,2024,27,Atlético-GO,Atlético-MG,2,1,V. Mandante
+1410,2024,27,Palmeiras,Botafogo,3,0,V. Mandante
+1411,2024,28,Fluminense,Vasco,1,1,Empate
+1412,2024,28,Grêmio,Vasco,5,0,V. Mandante
+1413,2024,28,Grêmio,Athletico-PR,3,0,V. Mandante
+1414,2024,28,Atlético-MG,Fortaleza,1,1,Empate
+1415,2024,28,Criciúma,Grêmio,1,1,Empate
+1416,2024,28,Internacional,Fortaleza,4,0,V. Mandante
+1417,2024,28,Grêmio,Atlético-MG,1,3,V. Visitante
+1418,2024,28,Athletico-PR,São Paulo,1,0,V. Mandante
+1419,2024,28,Vasco,Internacional,3,0,V. Mandante
+1420,2024,28,Juventude,São Paulo,2,2,Empate
+1421,2024,29,São Paulo,Flamengo,1,1,Empate
+1422,2024,29,Cruzeiro,Botafogo,3,1,V. Mandante
+1423,2024,29,Vitória,Flamengo,2,1,V. Mandante
+1424,2024,29,Cuiabá,Juventude,2,1,V. Mandante
+1425,2024,29,Flamengo,Botafogo,3,0,V. Mandante
+1426,2024,29,Atlético-MG,Fluminense,3,0,V. Mandante
+1427,2024,29,Atlético-MG,Internacional,1,0,V. Mandante
+1428,2024,29,Juventude,Athletico-PR,1,0,V. Mandante
+1429,2024,29,Fortaleza,Botafogo,1,0,V. Mandante
+1430,2024,29,Internacional,Palmeiras,1,1,Empate
+1431,2024,30,Grêmio,Corinthians,1,0,V. Mandante
+1432,2024,30,Atlético-GO,RB Bragantino,2,1,V. Mandante
+1433,2024,30,Athletico-PR,Botafogo,2,2,Empate
+1434,2024,30,Juventude,Palmeiras,2,2,Empate
+1435,2024,30,Juventude,Vasco,1,2,V. Visitante
+1436,2024,30,Vitória,Internacional,1,0,V. Mandante
+1437,2024,30,Vitória,Bahia,1,2,V. Visitante
+1438,2024,30,Bahia,Vasco,2,2,Empate
+1439,2024,30,Criciúma,Fortaleza,0,0,Empate
+1440,2024,30,Vitória,Athletico-PR,4,3,V. Mandante
+1441,2024,31,Fluminense,Internacional,2,1,V. Mandante
+1442,2024,31,Corinthians,Atlético-MG,3,2,V. Mandante
+1443,2024,31,Atlético-MG,Palmeiras,2,2,Empate
+1444,2024,31,Grêmio,Internacional,1,0,V. Mandante
+1445,2024,31,RB Bragantino,Internacional,3,0,V. Mandante
+1446,2024,31,Internacional,Flamengo,2,1,V. Mandante
+1447,2024,31,Vitória,Botafogo,1,1,Empate
+1448,2024,31,Criciúma,Vasco,1,2,V. Visitante
+1449,2024,31,Juventude,Atlético-MG,1,1,Empate
+1450,2024,31,Bahia,Internacional,1,2,V. Visitante
+1451,2024,32,Cuiabá,RB Bragantino,2,3,V. Visitante
+1452,2024,32,Vasco,Palmeiras,0,1,V. Visitante
+1453,2024,32,Corinthians,Athletico-PR,1,1,Empate
+1454,2024,32,Athletico-PR,Flamengo,2,3,V. Visitante
+1455,2024,32,RB Bragantino,Fluminense,1,0,V. Mandante
+1456,2024,32,Cruzeiro,Flamengo,2,1,V. Mandante
+1457,2024,32,Cuiabá,Internacional,1,1,Empate
+1458,2024,32,Athletico-PR,Vasco,2,1,V. Mandante
+1459,2024,32,RB Bragantino,Flamengo,3,0,V. Mandante
+1460,2024,32,Atlético-MG,Botafogo,2,1,V. Mandante
+1461,2024,33,Vasco,Fortaleza,2,2,Empate
+1462,2024,33,Juventude,Bahia,2,1,V. Mandante
+1463,2024,33,Atlético-GO,Criciúma,1,1,Empate
+1464,2024,33,Criciúma,Cruzeiro,1,2,V. Visitante
+1465,2024,33,Criciúma,Atlético-MG,2,1,V. Mandante
+1466,2024,33,Cuiabá,Atlético-MG,0,4,V. Visitante
+1467,2024,33,Corinthians,Cruzeiro,1,0,V. Mandante
+1468,2024,33,Cuiabá,Grêmio,2,0,V. Mandante
+1469,2024,33,Criciúma,Internacional,0,1,V. Visitante
+1470,2024,33,Atlético-GO,Cruzeiro,0,3,V. Visitante
+1471,2024,34,Vitória,Atlético-MG,2,1,V. Mandante
+1472,2024,34,Cuiabá,Fortaleza,1,2,V. Visitante
+1473,2024,34,Juventude,Grêmio,1,1,Empate
+1474,2024,34,Vitória,Cruzeiro,1,0,V. Mandante
+1475,2024,34,Juventude,Cruzeiro,1,1,Empate
+1476,2024,34,Vitória,RB Bragantino,1,2,V. Visitante
+1477,2024,34,Criciúma,RB Bragantino,0,2,V. Visitante
+1478,2024,34,Bahia,Corinthians,0,5,V. Visitante
+1479,2024,34,Bahia,São Paulo,0,0,Empate
+1480,2024,34,Corinthians,Fluminense,6,2,V. Mandante
+1481,2024,35,Vasco,Botafogo,2,0,V. Mandante
+1482,2024,35,Vitória,Palmeiras,3,0,V. Mandante
+1483,2024,35,Fluminense,Palmeiras,1,0,V. Mandante
+1484,2024,35,Bahia,Fortaleza,2,0,V. Mandante
+1485,2024,35,Athletico-PR,Cruzeiro,1,2,V. Visitante
+1486,2024,35,Cruzeiro,Internacional,1,1,Empate
+1487,2024,35,Bahia,Palmeiras,1,0,V. Mandante
+1488,2024,35,Atlético-GO,São Paulo,3,2,V. Mandante
+1489,2024,35,Grêmio,Flamengo,1,2,V. Visitante
+1490,2024,35,São Paulo,Botafogo,1,1,Empate
+1491,2024,36,Vasco,Cruzeiro,1,1,Empate
+1492,2024,36,Cuiabá,Fluminense,2,1,V. Mandante
+1493,2024,36,Atlético-GO,Flamengo,0,2,V. Visitante
+1494,2024,36,RB Bragantino,Vasco,0,0,Empate
+1495,2024,36,RB Bragantino,Cruzeiro,1,1,Empate
+1496,2024,36,Athletico-PR,Atlético-MG,0,0,Empate
+1497,2024,36,Criciúma,Cuiabá,2,1,V. Mandante
+1498,2024,36,Atlético-GO,Vasco,4,2,V. Mandante
+1499,2024,36,Athletico-PR,Palmeiras,3,2,V. Mandante
+1500,2024,36,Vasco,Flamengo,2,0,V. Mandante
+1501,2024,37,RB Bragantino,São Paulo,4,0,V. Mandante
+1502,2024,37,Corinthians,Vasco,1,1,Empate
+1503,2024,37,RB Bragantino,Bahia,1,1,Empate
+1504,2024,37,RB Bragantino,Atlético-MG,0,0,Empate
+1505,2024,37,Vitória,Corinthians,1,0,V. Mandante
+1506,2024,37,Cuiabá,Athletico-PR,0,1,V. Visitante
+1507,2024,37,Vitória,Vasco,0,0,Empate
+1508,2024,37,RB Bragantino,Corinthians,2,2,Empate
+1509,2024,37,Grêmio,Cruzeiro,3,1,V. Mandante
+1510,2024,37,Cruzeiro,Fortaleza,1,1,Empate
+1511,2024,38,Athletico-PR,Internacional,0,1,V. Visitante
+1512,2024,38,Atlético-MG,Flamengo,2,1,V. Mandante
+1513,2024,38,Atlético-GO,Botafogo,0,6,V. Visitante
+1514,2024,38,Grêmio,Fortaleza,0,2,V. Visitante
+1515,2024,38,Vitória,Atlético-GO,1,1,Empate
+1516,2024,38,Bahia,Flamengo,2,5,V. Visitante
+1517,2024,38,Atlético-GO,Bahia,1,0,V. Mandante
+1518,2024,38,Cuiabá,Palmeiras,1,2,V. Visitante
+1519,2024,38,Atlético-MG,Cruzeiro,2,0,V. Mandante
+1520,2024,38,Cruzeiro,Palmeiras,2,2,Empate
+1521,2025,1,Fortaleza,Athletico-PR,3,0,V. Mandante
+1522,2025,1,Flamengo,Vasco,4,2,V. Mandante
+1523,2025,1,Botafogo,Athletico-PR,1,1,Empate
+1524,2025,1,Botafogo,Corinthians,4,1,V. Mandante
+1525,2025,1,Internacional,Vasco,1,1,Empate
+1526,2025,1,Botafogo,Grêmio,1,1,Empate
+1527,2025,1,São Paulo,Ceará,3,1,V. Mandante
+1528,2025,1,Fluminense,Athletico-PR,1,1,Empate
+1529,2025,1,Botafogo,Fortaleza,2,1,V. Mandante
+1530,2025,1,Grêmio,Vasco,5,1,V. Mandante
+1531,2025,2,Botafogo,Fluminense,4,1,V. Mandante
+1532,2025,2,Internacional,Sport,3,0,V. Mandante
+1533,2025,2,Fluminense,RB Bragantino,0,0,Empate
+1534,2025,2,Athletico-PR,Ceará,4,0,V. Mandante
+1535,2025,2,Fortaleza,Grêmio,2,1,V. Mandante
+1536,2025,2,Cruzeiro,Vasco,0,0,Empate
+1537,2025,2,Flamengo,Grêmio,1,1,Empate
+1538,2025,2,Cruzeiro,Juventude,4,0,V. Mandante
+1539,2025,2,Botafogo,Vasco,1,0,V. Mandante
+1540,2025,2,Palmeiras,Botafogo,6,0,V. Mandante
+1541,2025,3,Fortaleza,Bahia,4,1,V. Mandante
+1542,2025,3,Fluminense,Grêmio,0,1,V. Visitante
+1543,2025,3,Corinthians,Bahia,1,0,V. Mandante
+1544,2025,3,Bahia,Santos,3,1,V. Mandante
+1545,2025,3,Corinthians,Internacional,2,1,V. Mandante
+1546,2025,3,Bahia,Ceará,1,1,Empate
+1547,2025,3,Corinthians,Juventude,0,0,Empate
+1548,2025,3,Botafogo,São Paulo,4,2,V. Mandante
+1549,2025,3,Palmeiras,Grêmio,3,3,Empate
+1550,2025,3,Corinthians,Mirassol,0,2,V. Visitante
+1551,2025,4,São Paulo,Sport,1,1,Empate
+1552,2025,4,Fortaleza,Sport,3,0,V. Mandante
+1553,2025,4,Grêmio,Sport,1,0,V. Mandante
+1554,2025,4,Internacional,Atlético-MG,2,0,V. Mandante
+1555,2025,4,Corinthians,Vasco,2,0,V. Mandante
+1556,2025,4,Vasco,Juventude,1,0,V. Mandante
+1557,2025,4,Cruzeiro,RB Bragantino,0,0,Empate
+1558,2025,4,Palmeiras,Juventude,0,0,Empate
+1559,2025,4,Fortaleza,Santos,1,2,V. Visitante
+1560,2025,4,Palmeiras,Bahia,1,2,V. Visitante
+1561,2025,5,Athletico-PR,Sport,0,1,V. Visitante
+1562,2025,5,Palmeiras,Corinthians,2,2,Empate
+1563,2025,5,São Paulo,Internacional,3,1,V. Mandante
+1564,2025,5,Grêmio,Cruzeiro,1,1,Empate
+1565,2025,5,Botafogo,Cruzeiro,4,1,V. Mandante
+1566,2025,5,Botafogo,Bahia,6,0,V. Mandante
+1567,2025,5,Corinthians,Atlético-MG,2,4,V. Visitante
+1568,2025,5,Flamengo,São Paulo,4,1,V. Mandante
+1569,2025,5,Fluminense,Bahia,2,2,Empate
+1570,2025,5,Atlético-MG,Athletico-PR,4,1,V. Mandante
+1571,2025,6,Internacional,Fortaleza,3,1,V. Mandante
+1572,2025,6,Flamengo,Botafogo,3,0,V. Mandante
+1573,2025,6,Palmeiras,Internacional,1,0,V. Mandante
+1574,2025,6,Athletico-PR,Cruzeiro,0,1,V. Visitante
+1575,2025,6,Grêmio,Ceará,0,0,Empate
+1576,2025,6,Corinthians,Cruzeiro,2,5,V. Visitante
+1577,2025,6,Fluminense,Atlético-MG,3,2,V. Mandante
+1578,2025,6,Cruzeiro,Ceará,1,0,V. Mandante
+1579,2025,6,Palmeiras,Fluminense,0,1,V. Visitante
+1580,2025,6,Flamengo,Fluminense,3,3,Empate
+1581,2025,7,Flamengo,Corinthians,3,2,V. Mandante
+1582,2025,7,Grêmio,Santos,3,0,V. Mandante
+1583,2025,7,São Paulo,Juventude,3,3,Empate
+1584,2025,7,Botafogo,Juventude,2,1,V. Mandante
+1585,2025,7,Sport,Mirassol,0,1,V. Visitante
+1586,2025,7,Bahia,Mirassol,2,0,V. Mandante
+1587,2025,7,Botafogo,Mirassol,0,0,Empate
+1588,2025,7,Internacional,RB Bragantino,1,0,V. Mandante
+1589,2025,7,Bahia,Sport,1,0,V. Mandante
+1590,2025,7,Grêmio,Bahia,4,1,V. Mandante
+1591,2025,8,Athletico-PR,Mirassol,3,0,V. Mandante
+1592,2025,8,Flamengo,Sport,3,1,V. Mandante
+1593,2025,8,Internacional,Bahia,1,0,V. Mandante
+1594,2025,8,Athletico-PR,Santos,0,0,Empate
+1595,2025,8,Grêmio,Athletico-PR,4,2,V. Mandante
+1596,2025,8,Cruzeiro,Sport,0,0,Empate
+1597,2025,8,São Paulo,Atlético-MG,3,0,V. Mandante
+1598,2025,8,São Paulo,Athletico-PR,2,0,V. Mandante
+1599,2025,8,Botafogo,Atlético-MG,1,2,V. Visitante
+1600,2025,8,Palmeiras,São Paulo,2,0,V. Mandante
+1601,2025,9,Grêmio,RB Bragantino,2,2,Empate
+1602,2025,9,Athletico-PR,RB Bragantino,0,2,V. Visitante
+1603,2025,9,RB Bragantino,Santos,0,1,V. Visitante
+1604,2025,9,Vasco,Sport,2,0,V. Mandante
+1605,2025,9,Ceará,Juventude,1,0,V. Mandante
+1606,2025,9,Internacional,Santos,2,0,V. Mandante
+1607,2025,9,Internacional,Grêmio,3,0,V. Mandante
+1608,2025,9,Internacional,Ceará,1,2,V. Visitante
+1609,2025,9,Grêmio,Mirassol,0,1,V. Visitante
+1610,2025,9,Flamengo,Atlético-MG,3,2,V. Mandante
+1611,2025,10,Fluminense,Juventude,1,0,V. Mandante
+1612,2025,10,Fortaleza,Cruzeiro,0,0,Empate
+1613,2025,10,RB Bragantino,Vasco,0,2,V. Visitante
+1614,2025,10,Sport,Ceará,0,1,V. Visitante
+1615,2025,10,Sport,Juventude,0,1,V. Visitante
+1616,2025,10,Flamengo,Palmeiras,3,1,V. Mandante
+1617,2025,10,São Paulo,RB Bragantino,5,1,V. Mandante
+1618,2025,10,Cruzeiro,Mirassol,2,0,V. Mandante
+1619,2025,10,Atlético-MG,RB Bragantino,2,2,Empate
+1620,2025,10,RB Bragantino,Sport,5,0,V. Mandante
+1621,2025,11,Flamengo,RB Bragantino,0,1,V. Visitante
+1622,2025,11,Atlético-MG,Ceará,1,0,V. Mandante
+1623,2025,11,Athletico-PR,Vasco,2,1,V. Mandante
+1624,2025,11,Palmeiras,Sport,3,0,V. Mandante
+1625,2025,11,Palmeiras,Mirassol,0,0,Empate
+1626,2025,11,Flamengo,Internacional,3,0,V. Mandante
+1627,2025,11,Corinthians,Ceará,1,0,V. Mandante
+1628,2025,11,Flamengo,Cruzeiro,1,1,Empate
+1629,2025,11,Atlético-MG,Cruzeiro,3,3,Empate
+1630,2025,11,Atlético-MG,Grêmio,1,2,V. Visitante
+1631,2025,12,RB Bragantino,Juventude,0,0,Empate
+1632,2025,12,Palmeiras,Cruzeiro,1,0,V. Mandante
+1633,2025,12,Fluminense,Cruzeiro,0,1,V. Visitante
+1634,2025,12,Corinthians,Fortaleza,2,1,V. Mandante
+1635,2025,12,Fluminense,Internacional,2,0,V. Mandante
+1636,2025,12,Fluminense,Vasco,3,1,V. Mandante
+1637,2025,12,Cruzeiro,Santos,3,1,V. Mandante
+1638,2025,12,Corinthians,Athletico-PR,2,3,V. Visitante
+1639,2025,12,Cruzeiro,Bahia,2,1,V. Mandante
+1640,2025,12,Fluminense,Ceará,2,0,V. Mandante
