@@ -251,3 +251,11 @@ mais_comum = placar.value_counts().head(3)
 st.markdown("**Placares mais frequentes:**")
 for placar_str, count in mais_comum.items():
     st.markdown(f"- `{placar_str}` — {count}x")
+
+st.markdown("---")
+st.markdown("""
+<div style='text-align:center; color:#2a4a6a; font-size:0.8rem; padding: 8px 0'>
+    Desenvolvido por <strong>Marcelo</strong> · 
+    <a href='https://github.com/MarceloPassM' target='_blank' style='color:#3b82f6'>GitHub</a>
+</div>
+""", unsafe_allow_html=True)

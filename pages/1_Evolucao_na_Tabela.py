@@ -134,3 +134,11 @@ for col, titulo, r_min, r_max in [
             yaxis=dict(range=[0, 110], showgrid=True, gridcolor="#1a2332"),
         )
         st.plotly_chart(fig_t, use_container_width=True)
+
+st.markdown("---")
+st.markdown("""
+<div style='text-align:center; color:#2a4a6a; font-size:0.8rem; padding: 8px 0'>
+    Desenvolvido por <strong>Marcelo</strong> · 
+    <a href='https://github.com/MarceloPassM' target='_blank' style='color:#3b82f6'>GitHub</a>
+</div>
+""", unsafe_allow_html=True)
