@@ -81,11 +81,12 @@ gols2 = (df[df["mandante"] == time2]["gols_mandante"].sum() +
 total = len(df)
 
 st.markdown("")
-ca, cb, cc = st.columns(3)
+ca, cb, cc, cd = st.columns(4)
 stats = [
-    (ca, time1, v1, f"{v1/total*100:.0f}%", "#3b82f6"),
-    (cb, "Empates", emp, f"{emp/total*100:.0f}%", "#94a3b8"),
-    (cc, time2, v2, f"{v2/total*100:.0f}%", "#ef4444"),
+    (ca, "Total de Jogos", total, "confrontos", "#e2e8f0"),
+    (cb, time1, v1, f"{v1/total*100:.0f}%", "#3b82f6"),
+    (cc, "Empates", emp, f"{emp/total*100:.0f}%", "#94a3b8"),
+    (cd, time2, v2, f"{v2/total*100:.0f}%", "#ef4444"),
 ]
 for col, label, val, pct, cor in stats:
     with col:
@@ -93,7 +94,7 @@ for col, label, val, pct, cor in stats:
         <div class="stat-box">
           <div class="stat-label">{label}</div>
           <div class="stat-val" style="color:{cor}">{val}</div>
-          <div class="stat-label">{pct} dos jogos</div>
+          <div class="stat-label">{pct}</div>
         </div>""", unsafe_allow_html=True)
 
 st.markdown("")

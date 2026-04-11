@@ -10,7 +10,7 @@ Dashboard interativo para análise do Campeonato Brasileiro Série A (2003–202
 
 **Evolução na Tabela** — Acompanhe a pontuação acumulada e a posição na tabela de qualquer combinação de times ao longo das rodadas. Também exibe o aproveitamento separado por primeiro e segundo turno.
 
-**Head-to-Head** — Histórico completo de confrontos diretos entre dois times, com distribuição de vitórias, gols marcados, placares mais frequentes e filtro por temporada.
+**Head-to-Head** — Histórico completo de confrontos diretos entre dois times, com distribuição de vitórias, gols marcados, placares mais frequentes, desempenho separado por mando de campo (casa e fora) e filtro por temporada.
 
 **Análise de Gols** — Distribuição de gols por jogo, médias por temporada, vantagem de jogar em casa vs. fora, ranking de gols marcados e sofridos, e métricas como Over 2.5 e percentual de jogos em que ambos os times marcam.
 
