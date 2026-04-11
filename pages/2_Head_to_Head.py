@@ -101,9 +101,9 @@ st.markdown("")
 col1, col2 = st.columns(2)
 
 with col1:
-    st.markdown("### Distribuição de Resultados")
+    st.markdown("### Distribuicao de Resultados")
     fig_pie = go.Figure(go.Pie(
-        labels=[f"Vitórias {time1}", "Empates", f"Vitórias {time2}"],
+        labels=[f"Vitorias {time1}", "Empates", f"Vitorias {time2}"],
         values=[v1, emp, v2],
         marker_colors=["#3b82f6", "#64748b", "#ef4444"],
         hole=0.5,
@@ -137,7 +137,108 @@ with col2:
     )
     st.plotly_chart(fig_gols, use_container_width=True)
 
-st.markdown("### Histórico de Confrontos")
+st.markdown("### Desempenho por Mando de Campo")
+
+def calc_mando(df, time, como_mandante):
+    if como_mandante:
+        sub = df[df["mandante"] == time]
+        v   = (sub["resultado"] == "V. Mandante").sum()
+        d   = (sub["resultado"] == "V. Visitante").sum()
+        gp  = sub["gols_mandante"].sum()
+        gc  = sub["gols_visitante"].sum()
+    else:
+        sub = df[df["visitante"] == time]
+        v   = (sub["resultado"] == "V. Visitante").sum()
+        d   = (sub["resultado"] == "V. Mandante").sum()
+        gp  = sub["gols_visitante"].sum()
+        gc  = sub["gols_mandante"].sum()
+    e = (sub["resultado"] == "Empate").sum()
+    j = len(sub)
+    aprov = round(((v * 3 + e) / (j * 3)) * 100, 1) if j > 0 else 0
+    return {"J": j, "V": int(v), "E": int(e), "D": int(d), "GP": int(gp), "GC": int(gc), "Aprov": aprov}
+
+col_casa, col_fora = st.columns(2)
+
+for col, time, cor, como_mandante, rotulo in [
+    (col_casa, time1, "#3b82f6", True,  f"{time1} jogando em casa"),
+    (col_fora, time1, "#3b82f6", False, f"{time1} jogando fora"),
+]:
+    with col:
+        s = calc_mando(df, time, como_mandante)
+        st.markdown(f"**{rotulo}**")
+        st.markdown(f"""
+        <div class="stat-box" style="margin-bottom:6px">
+          <div class="stat-label">Jogos · Aproveitamento</div>
+          <div class="stat-val" style="color:{cor}">{s['J']} jogos · {s['Aprov']}%</div>
+        </div>
+        <div style="display:flex;gap:6px;margin-bottom:6px">
+          <div class="stat-box" style="flex:1">
+            <div class="stat-label">Vitorias</div>
+            <div class="stat-val" style="color:#22c55e;font-size:1.2rem">{s['V']}</div>
+          </div>
+          <div class="stat-box" style="flex:1">
+            <div class="stat-label">Empates</div>
+            <div class="stat-val" style="color:#94a3b8;font-size:1.2rem">{s['E']}</div>
+          </div>
+          <div class="stat-box" style="flex:1">
+            <div class="stat-label">Derrotas</div>
+            <div class="stat-val" style="color:#ef4444;font-size:1.2rem">{s['D']}</div>
+          </div>
+        </div>
+        <div style="display:flex;gap:6px">
+          <div class="stat-box" style="flex:1">
+            <div class="stat-label">Gols Marcados</div>
+            <div class="stat-val" style="color:{cor};font-size:1.2rem">{s['GP']}</div>
+          </div>
+          <div class="stat-box" style="flex:1">
+            <div class="stat-label">Gols Sofridos</div>
+            <div class="stat-val" style="color:#ef4444;font-size:1.2rem">{s['GC']}</div>
+          </div>
+        </div>
+        """, unsafe_allow_html=True)
+
+col_casa2, col_fora2 = st.columns(2)
+
+for col, time, cor, como_mandante, rotulo in [
+    (col_casa2, time2, "#ef4444", True,  f"{time2} jogando em casa"),
+    (col_fora2, time2, "#ef4444", False, f"{time2} jogando fora"),
+]:
+    with col:
+        s = calc_mando(df, time, como_mandante)
+        st.markdown(f"**{rotulo}**")
+        st.markdown(f"""
+        <div class="stat-box" style="margin-bottom:6px">
+          <div class="stat-label">Jogos · Aproveitamento</div>
+          <div class="stat-val" style="color:{cor}">{s['J']} jogos · {s['Aprov']}%</div>
+        </div>
+        <div style="display:flex;gap:6px;margin-bottom:6px">
+          <div class="stat-box" style="flex:1">
+            <div class="stat-label">Vitorias</div>
+            <div class="stat-val" style="color:#22c55e;font-size:1.2rem">{s['V']}</div>
+          </div>
+          <div class="stat-box" style="flex:1">
+            <div class="stat-label">Empates</div>
+            <div class="stat-val" style="color:#94a3b8;font-size:1.2rem">{s['E']}</div>
+          </div>
+          <div class="stat-box" style="flex:1">
+            <div class="stat-label">Derrotas</div>
+            <div class="stat-val" style="color:#ef4444;font-size:1.2rem">{s['D']}</div>
+          </div>
+        </div>
+        <div style="display:flex;gap:6px">
+          <div class="stat-box" style="flex:1">
+            <div class="stat-label">Gols Marcados</div>
+            <div class="stat-val" style="color:{cor};font-size:1.2rem">{s['GP']}</div>
+          </div>
+          <div class="stat-box" style="flex:1">
+            <div class="stat-label">Gols Sofridos</div>
+            <div class="stat-val" style="color:#ef4444;font-size:1.2rem">{s['GC']}</div>
+          </div>
+        </div>
+        """, unsafe_allow_html=True)
+
+st.markdown("")
+st.markdown("### Historico de Confrontos")
 
 display = df[["ano", "rodada", "mandante", "gols_mandante", "gols_visitante", "visitante", "resultado"]].copy()
 display.columns = ["Ano", "Rodada", "Mandante", "GM", "GV", "Visitante", "Resultado"]

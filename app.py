@@ -194,3 +194,11 @@ fig2.update_layout(
     legend=dict(orientation="h", y=1.1),
 )
 st.plotly_chart(fig2, use_container_width=True)
+
+st.markdown("---")
+st.markdown("""
+<div style='text-align:center; color:#2a4a6a; font-size:0.8rem; padding: 8px 0'>
+    Desenvolvido por <strong>Marcelo</strong> · 
+    <a href='https://github.com/MarceloPassM' target='_blank' style='color:#3b82f6'>GitHub</a>
+</div>
+""", unsafe_allow_html=True)
