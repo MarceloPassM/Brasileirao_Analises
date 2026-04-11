@@ -2,8 +2,6 @@
 
 Dashboard interativo para análise do Campeonato Brasileiro Série A (2003–2024), construído com Streamlit, DuckDB e Plotly.
 
-Projeto desenvolvido como portfólio de estágio em Ciência de Dados.
-
 ---
 
 ## Funcionalidades
