@@ -52,8 +52,8 @@ h1, h2, h3 { font-family: 'Barlow Condensed', sans-serif; letter-spacing: 0.03em
 with st.sidebar:
     st.markdown("## Brasileirao\n### Analytics")
     st.markdown("---")
-    anos_disp = [2021, 2022, 2023, 2024]
-    ano = st.selectbox("Temporada", anos_disp, index=3)
+    anos_disp = sorted(query("SELECT DISTINCT ano FROM jogos")["ano"].tolist())
+    ano = st.selectbox("Temporada", anos_disp, index=len(anos_disp) - 1)
 
     max_rodada = int(query(f"SELECT MAX(rodada) FROM jogos WHERE ano={ano}").iloc[0,0])
     rodada = st.slider("Ate a rodada:", 1, max_rodada, max_rodada)
@@ -105,14 +105,41 @@ st.markdown("")
 st.markdown('<div class="section">Tabela de Classificacao</div>', unsafe_allow_html=True)
 st.markdown("")
 
-def colorir_posicao(pos):
-    if pos <= 4:  return "G4"
-    if pos <= 6:  return "SUL"
-    if pos >= 17: return "REL"
+ZONAS = {
+    2003: {"LIB": set(range(1,6)),  "PRE": set(),          "SUL": {6,7,8,9,10,11,20}, "REB": {23,24}},
+    2004: {"LIB": set(range(1,4)),  "PRE": {4},            "SUL": {5,6,7,8,9,13},     "REB": set(range(21,25))},
+    2005: {"LIB": {1,2,11},         "PRE": {3,4},          "SUL": {5,6,7,8,9,10,12},  "REB": set(range(19,23))},
+    2006: {"LIB": {1,2,3,11},       "PRE": {4,5},          "SUL": {6,7,8,9,10,12,13}, "REB": set(range(17,21))},
+    2007: {"LIB": set(range(1,5)),  "PRE": {5},            "SUL": set(range(6,13)),    "REB": set(range(17,21))},
+    2008: {"LIB": {1,2,3,11},       "PRE": {4},            "SUL": {5,6,7,8,9,10,12,13,14}, "REB": set(range(17,21))},
+    2009: {"LIB": {1,2,3,10},       "PRE": {4},            "SUL": {5,6,7,8,9,11,12,13},    "REB": set(range(17,21))},
+    2010: {"LIB": {1,2,7,8},        "PRE": {3,4},          "SUL": {5,6,9,10,11,12,13,14},  "REB": set(range(17,21))},
+    2011: {"LIB": {1,2,3,10},       "PRE": {4,5},          "SUL": {6,7,8,9,11,12,13,14},   "REB": set(range(17,21))},
+    2012: {"LIB": {1,2,6},          "PRE": {3,4},          "SUL": set(range(12,18)),        "REB": set(range(17,21))},
+    2013: {"LIB": {1,2,8,16},       "PRE": {3,4},          "SUL": {5,6,9,12,13,14,15},     "REB": set(range(17,21))},
+    2014: {"LIB": {1,2,3,5},        "PRE": {4},            "SUL": {8,11,12,15,18},          "REB": set(range(17,21))},
+    2015: {"LIB": {1,2,3,9},        "PRE": {4},            "SUL": {6,12,14,15,16},          "REB": set(range(17,21))},
+    2016: {"LIB": {1,2,3,4,9,11},   "PRE": {5,6},          "SUL": {7,8,10,12,13,14},        "REB": set(range(17,21))},
+    2017: {"LIB": set(range(1,7)),  "PRE": {7,8},          "SUL": set(range(9,15)),          "REB": set(range(17,21))},
+    2018: {"LIB": {1,2,3,4,7,8},    "PRE": {5,6},          "SUL": set(range(9,15)),          "REB": set(range(17,21))},
+    2019: {"LIB": set(range(1,7)),  "PRE": {7,8},          "SUL": set(range(9,15)),          "REB": set(range(17,21))},
+    2020: {"LIB": {1,2,3,4,5,7},    "PRE": {6,8},          "SUL": set(range(9,15)),          "REB": set(range(17,21))},
+    2021: {"LIB": {1,2,3,4,5,6,14}, "PRE": {7,8},          "SUL": {9,10,11,12,13,15},        "REB": set(range(17,21))},
+    2022: {"LIB": set(range(1,7)),  "PRE": {7,8},          "SUL": set(range(9,15)),          "REB": set(range(17,21))},
+    2023: {"LIB": {1,2,3,4,7,11},   "PRE": {5,6},          "SUL": {8,9,10,12,13,14},         "REB": set(range(17,21))},
+    2024: {"LIB": set(range(1,7)),  "PRE": {7,8},          "SUL": set(range(9,15)),          "REB": set(range(17,21))},
+}
+
+def colorir_posicao(pos, ano):
+    zonas = ZONAS.get(ano, {})
+    if pos in zonas.get("LIB", set()):  return "LIB"
+    if pos in zonas.get("PRE", set()):  return "PRE-LIB"
+    if pos in zonas.get("SUL", set()):  return "SUL"
+    if pos in zonas.get("REB", set()):  return "REB"
     return "-"
 
 tabela_display = tabela.copy()
-tabela_display.insert(0, "Zona", [colorir_posicao(i) for i in range(1, len(tabela) + 1)])
+tabela_display.insert(0, "Zona", [colorir_posicao(i, ano) for i in range(1, len(tabela) + 1)])
 
 st.dataframe(
     tabela_display,
@@ -127,7 +154,7 @@ st.dataframe(
 
 st.markdown("""
 <div style='font-size:0.72rem; color:#2a4a6a; margin-top:4px'>
-G4 = Libertadores &nbsp;|&nbsp; SUL = Sul-Americana &nbsp;|&nbsp; REL = Rebaixamento &nbsp;|&nbsp; - = Zona neutra
+LIB = Libertadores &nbsp;|&nbsp; PRE-LIB = Pre-Libertadores &nbsp;|&nbsp; SUL = Sul-Americana &nbsp;|&nbsp; REB = Rebaixamento &nbsp;|&nbsp; - = Zona neutra
 </div>
 """, unsafe_allow_html=True)
 
