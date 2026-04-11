@@ -1,8 +1,6 @@
 """
 pipeline_data.py
 Converte o campeonato-brasileiro-full.csv para o formato jogos.csv usado no projeto.
-Execute na raiz do projeto:
-    python pipeline_data.py
 """
 import pandas as pd
 
@@ -13,18 +11,17 @@ print("Lendo arquivo original...")
 df = pd.read_csv(ARQUIVO_ORIGINAL)
 print(f"Total de jogos lidos: {len(df)}")
 
-# Converter data para datetime
+
 df["data_dt"] = pd.to_datetime(df["data"], format="%d/%m/%Y")
 df["ano"] = df["data_dt"].dt.year
 
-# Correcao: jogos com data em 2021 mas anteriores a maio de 2021
-# sao continuacao do campeonato 2020 (rodadas 28-38 disputadas em jan/fev 2021)
+
 mascara_2020 = (df["ano"] == 2021) & (df["data_dt"] < "2021-05-01")
 df.loc[mascara_2020, "ano"] = 2020
 
 print(f"Jogos corrigidos de 2021 para 2020: {mascara_2020.sum()}")
 
-# Renomear colunas
+# renomear colunas
 df = df.rename(columns={
     "ID":               "jogo_id",
     "rodata":           "rodada",
@@ -32,11 +29,11 @@ df = df.rename(columns={
     "visitante_Placar": "gols_visitante",
 })
 
-# Converter placares para inteiro
+# converter placares para inteiro
 df["gols_mandante"]  = pd.to_numeric(df["gols_mandante"],  errors="coerce").fillna(0).astype(int)
 df["gols_visitante"] = pd.to_numeric(df["gols_visitante"], errors="coerce").fillna(0).astype(int)
 
-# Criar coluna resultado
+# criar coluna resultado
 def definir_resultado(row):
     if row["gols_mandante"] > row["gols_visitante"]:
         return "V. Mandante"
@@ -47,7 +44,7 @@ def definir_resultado(row):
 
 df["resultado"] = df.apply(definir_resultado, axis=1)
 
-# Selecionar colunas finais
+# selecionar colunas finais
 df_final = df[["jogo_id", "ano", "rodada", "mandante", "visitante",
                "gols_mandante", "gols_visitante", "resultado"]].copy()
 
