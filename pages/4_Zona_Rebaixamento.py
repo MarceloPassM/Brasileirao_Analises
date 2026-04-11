@@ -22,19 +22,27 @@ anos_disp = sorted(query("SELECT DISTINCT ano FROM jogos")["ano"].tolist())
 with st.sidebar:
     ano = st.selectbox("Temporada:", anos_disp, index=len(anos_disp) - 1)
 
+# Numero de times e rodadas do ano selecionado
+max_rodada  = int(query(f"SELECT MAX(rodada) FROM jogos WHERE ano={ano}").iloc[0, 0])
+total_times = int(query(f"SELECT COUNT(DISTINCT mandante) FROM jogos WHERE ano={ano}").iloc[0, 0])
+
+# Numero de rebaixados por ano
+REB_POR_ANO = {2003: 2}
+n_reb = REB_POR_ANO.get(ano, 4)
+
 st.markdown(f"# Zona de Rebaixamento — {ano}")
-st.caption("Evolucao dos times que fecharam a temporada nas ultimas 4 posicoes.")
+st.caption(f"Evolucao dos times que fecharam a temporada nas ultimas {n_reb} posicoes.")
 
 @st.cache_data
-def get_rebaixados(ano):
-    tab_final = calcular_tabela(ano, 38)
-    rebaixados = tab_final.tail(4)["Time"].tolist()
+def get_rebaixados(ano, max_rodada, n_reb):
+    tab_final = calcular_tabela(ano, max_rodada)
+    rebaixados = tab_final.tail(n_reb)["Time"].tolist()
     return rebaixados, tab_final
 
-rebaixados, tab_final = get_rebaixados(ano)
+rebaixados, tab_final = get_rebaixados(ano, max_rodada, n_reb)
 
 st.markdown("### Times Rebaixados")
-cols = st.columns(4)
+cols = st.columns(n_reb)
 for i, time in enumerate(rebaixados):
     with cols[i]:
         stats = tab_final[tab_final["Time"] == time].iloc[0]
@@ -54,12 +62,12 @@ for i, time in enumerate(rebaixados):
 
 st.markdown("")
 st.markdown("### Evolucao da Posicao — Times Rebaixados")
-st.caption("Posicao na tabela ao longo das 38 rodadas.")
+st.caption(f"Posicao na tabela ao longo das {max_rodada} rodadas.")
 
 @st.cache_data
-def get_posicoes(ano):
+def get_posicoes(ano, max_rodada):
     rows = []
-    for r in range(1, 39):
+    for r in range(1, max_rodada + 1):
         tab = calcular_tabela(ano, r).reset_index()
         for _, linha in tab.iterrows():
             rows.append({
@@ -71,12 +79,14 @@ def get_posicoes(ano):
     return pd.DataFrame(rows)
 
 with st.spinner("Calculando evolucao..."):
-    df_pos = get_posicoes(ano)
+    df_pos = get_posicoes(ano, max_rodada)
 
 df_rel = df_pos[df_pos["time"].isin(rebaixados)]
 
-fig = go.Figure()
 cores_rel = ["#ef4444", "#f97316", "#eab308", "#a855f7"]
+limite_reb = total_times - n_reb + 0.5
+
+fig = go.Figure()
 for i, time in enumerate(rebaixados):
     sub = df_rel[df_rel["time"] == time]
     fig.add_trace(go.Scatter(
@@ -85,16 +95,17 @@ for i, time in enumerate(rebaixados):
         marker=dict(size=4),
     ))
 
-fig.add_hrect(y0=16.5, y1=20.5, fillcolor="#ef4444", opacity=0.08)
-fig.add_hline(y=16.5, line_dash="dash", line_color="#ef4444",
-              annotation_text="Limite do rebaixamento (17)", annotation_position="right")
+fig.add_hrect(y0=limite_reb, y1=total_times + 0.5, fillcolor="#ef4444", opacity=0.08)
+fig.add_hline(y=limite_reb, line_dash="dash", line_color="#ef4444",
+              annotation_text=f"Limite do rebaixamento ({int(limite_reb + 0.5)})",
+              annotation_position="right")
 
 fig.update_layout(
     template="plotly_dark", plot_bgcolor="#0a0f14", paper_bgcolor="#0a0f14",
     height=400, margin=dict(l=0, r=120, t=20, b=0),
     xaxis=dict(title="Rodada", showgrid=False, dtick=5),
     yaxis=dict(title="Posicao", autorange="reversed",
-               tickvals=list(range(1, 21)), showgrid=True, gridcolor="#1a2332"),
+               tickvals=list(range(1, total_times + 1)), showgrid=True, gridcolor="#1a2332"),
     legend=dict(orientation="h", y=1.08),
 )
 st.plotly_chart(fig, use_container_width=True)
@@ -103,8 +114,8 @@ col1, col2 = st.columns(2)
 
 with col1:
     st.markdown("### Pontuacao Final — Zona de Rebaixamento")
-    tab_bottom = tab_final.tail(6).reset_index()
-    pts_17 = tab_final.iloc[16]["Pts"]
+    tab_bottom = tab_final.tail(n_reb + 2).reset_index()
+    pts_limite = tab_final.iloc[total_times - n_reb - 1]["Pts"]
 
     fig_pts = px.bar(
         tab_bottom, x="Time", y="Pts",
@@ -112,8 +123,8 @@ with col1:
         text="Pts",
     )
     fig_pts.update_traces(textposition="outside")
-    fig_pts.add_hline(y=pts_17, line_dash="dot", line_color="#64748b",
-                      annotation_text=f"17 ({pts_17} pts)")
+    fig_pts.add_hline(y=pts_limite, line_dash="dot", line_color="#64748b",
+                      annotation_text=f"Limite ({pts_limite} pts)")
     fig_pts.update_layout(
         template="plotly_dark", plot_bgcolor="#0a0f14", paper_bgcolor="#0a0f14",
         height=300, margin=dict(l=0, r=0, t=10, b=0),
@@ -158,4 +169,4 @@ with col2:
     st.plotly_chart(fig_ult, use_container_width=True)
 
 with st.expander("Tabela completa (foco no Z4)"):
-    st.dataframe(tab_final.tail(8), use_container_width=True)
+    st.dataframe(tab_final.tail(n_reb + 4), use_container_width=True)

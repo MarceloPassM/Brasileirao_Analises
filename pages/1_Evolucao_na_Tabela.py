@@ -18,8 +18,8 @@ h1,h2,h3 { font-family: 'Barlow Condensed', sans-serif; }
 """, unsafe_allow_html=True)
 
 with st.sidebar:
-    anos = [2021, 2022, 2023, 2024]
-    ano  = st.selectbox("Temporada", anos, index=3)
+    anos = sorted(query("SELECT DISTINCT ano FROM jogos")["ano"].tolist())
+    ano  = st.selectbox("Temporada", anos, index=len(anos) - 1)
     times_ano = sorted(query(f"SELECT DISTINCT mandante FROM jogos WHERE ano={ano}")["mandante"].tolist())
     times_sel = st.multiselect("Times:", times_ano, default=times_ano[:5] if len(times_ano) >= 5 else times_ano)
 
