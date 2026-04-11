@@ -5,7 +5,7 @@ import pandas as pd
 from utils.db import query
 from utils.tabela import calcular_tabela
 
-st.set_page_config(page_title="Evolucao na Tabela", layout="wide")
+st.set_page_config(page_title="Evolucão na Tabela", layout="wide")
 
 st.markdown("""
 <style>
@@ -23,7 +23,7 @@ with st.sidebar:
     times_ano = sorted(query(f"SELECT DISTINCT mandante FROM jogos WHERE ano={ano}")["mandante"].tolist())
     times_sel = st.multiselect("Times:", times_ano, default=times_ano[:5] if len(times_ano) >= 5 else times_ano)
 
-st.markdown(f"# Evolucao na Tabela — {ano}")
+st.markdown(f"# Evolução na Tabela — {ano}")
 st.caption("Acompanhe como cada time foi se posicionando rodada a rodada.")
 
 if not times_sel:
@@ -48,12 +48,12 @@ def get_evolucao(ano, times, max_r):
                 })
     return pd.DataFrame(rows)
 
-with st.spinner("Calculando evolucao rodada a rodada..."):
+with st.spinner("Calculando evolucão rodada a rodada..."):
     df_evo = get_evolucao(ano, times_sel, 38)
 
 cores = px.colors.qualitative.Bold
 
-st.markdown("### Pontuacao Acumulada por Rodada")
+st.markdown("### Pontuação Acumulada por Rodada")
 
 fig_pts = go.Figure()
 for i, time in enumerate(times_sel):
@@ -78,8 +78,8 @@ fig_pts.update_layout(
 )
 st.plotly_chart(fig_pts, use_container_width=True)
 
-st.markdown("### Posicao na Tabela por Rodada")
-st.caption("Quanto mais baixo, melhor — posicao 1 e o lider.")
+st.markdown("### Posição na Tabela por Rodada")
+st.caption("Quanto mais baixo, melhor — posicão 1 e o líder.")
 
 fig_pos = go.Figure()
 for i, time in enumerate(times_sel):
@@ -116,7 +116,7 @@ for col, titulo, r_min, r_max in [
         st.markdown(f"**{titulo}**")
         sub = df_evo[(df_evo["rodada"] >= r_min) & (df_evo["rodada"] <= r_max)]
         if sub.empty:
-            st.caption("Dados nao disponiveis.")
+            st.caption("Dados não disponíveis.")
             continue
         last = sub.groupby("time").last().reset_index().sort_values("pts", ascending=False)
         fig_t = px.bar(

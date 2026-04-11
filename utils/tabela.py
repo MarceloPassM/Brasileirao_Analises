@@ -1,5 +1,6 @@
 import pandas as pd
 from utils.db import query
+from utils.penalidades import PENALIDADES
 
 
 def calcular_tabela(ano: int, ate_rodada: int = 38) -> pd.DataFrame:
@@ -47,9 +48,21 @@ def calcular_tabela(ano: int, ate_rodada: int = 38) -> pd.DataFrame:
     ORDER BY pts DESC, v DESC, sg DESC, gp DESC
     """
     df = query(sql).reset_index(drop=True)
+    df.columns = ["Time","J","V","E","D","GP","GC","SG","Pts","Aprov%"]
+
+    # Aplicar penalidades se houver para o ano
+    if ano in PENALIDADES:
+        max_rodada = int(query(f"SELECT MAX(rodada) FROM jogos WHERE ano={ano}").iloc[0, 0])
+        if ate_rodada >= max_rodada:
+            for time, ajuste in PENALIDADES[ano].items():
+                mask = df["Time"] == time
+                if mask.any():
+                    df.loc[mask, "Pts"] = df.loc[mask, "Pts"] + ajuste
+
+    # Reordenar apos penalidades
+    df = df.sort_values(["Pts", "V", "SG", "GP"], ascending=False).reset_index(drop=True)
     df.index += 1
     df.index.name = "Pos"
-    df.columns = ["Time","J","V","E","D","GP","GC","SG","Pts","Aprov%"]
     return df
 
 

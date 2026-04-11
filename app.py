@@ -50,7 +50,7 @@ h1, h2, h3 { font-family: 'Barlow Condensed', sans-serif; letter-spacing: 0.03em
 """, unsafe_allow_html=True)
 
 with st.sidebar:
-    st.markdown("## Brasileirao\n### Analytics")
+    st.markdown("## Brasileirão\n### Analytics")
     st.markdown("---")
     anos_disp = sorted(query("SELECT DISTINCT ano FROM jogos")["ano"].tolist())
     ano = st.selectbox("Temporada", anos_disp, index=len(anos_disp) - 1)
@@ -61,14 +61,14 @@ with st.sidebar:
     st.markdown("---")
     st.markdown("""
 **Paginas**
-- Classificacao *(voce esta aqui)*
-- Evolucao na Tabela
+- Classificação *(voce esta aqui)*
+- Evolução na Tabela
 - Head-to-Head
-- Analise de Gols
+- Análise de Gols
 - Zona de Rebaixamento
     """)
     st.markdown("---")
-    st.caption("Dados simulados · Serie A 2021-2025")
+    st.caption("Dados simulados · Serie A 2003-2024")
 
 
 @st.cache_data
@@ -77,7 +77,7 @@ def get_tabela(ano, rodada):
 
 tabela = get_tabela(ano, rodada)
 
-st.markdown(f"# Classificacao — Brasileirao {ano}")
+st.markdown(f"# Classificação — Brasileirão {ano}")
 st.caption(f"Rodada {rodada} de {max_rodada}" + (""))
 
 lider    = tabela.iloc[0]
@@ -102,7 +102,7 @@ for col, label, val, sub in zip(
 
 st.markdown("")
 
-st.markdown('<div class="section">Tabela de Classificacao</div>', unsafe_allow_html=True)
+st.markdown('<div class="section">Tabela de Classificação</div>', unsafe_allow_html=True)
 st.markdown("")
 
 ZONAS = {

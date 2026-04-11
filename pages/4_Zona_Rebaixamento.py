@@ -31,7 +31,7 @@ REB_POR_ANO = {2003: 2}
 n_reb = REB_POR_ANO.get(ano, 4)
 
 st.markdown(f"# Zona de Rebaixamento — {ano}")
-st.caption(f"Evolucao dos times que fecharam a temporada nas ultimas {n_reb} posicoes.")
+st.caption(f"Evolução dos times que fecharam a temporada nas últimas {n_reb} posições.")
 
 @st.cache_data
 def get_rebaixados(ano, max_rodada, n_reb):
@@ -61,8 +61,8 @@ for i, time in enumerate(rebaixados):
         </div>""", unsafe_allow_html=True)
 
 st.markdown("")
-st.markdown("### Evolucao da Posicao — Times Rebaixados")
-st.caption(f"Posicao na tabela ao longo das {max_rodada} rodadas.")
+st.markdown("### Evolução da Posição — Times Rebaixados")
+st.caption(f"Posição na tabela ao longo das {max_rodada} rodadas.")
 
 @st.cache_data
 def get_posicoes(ano, max_rodada):
@@ -78,7 +78,7 @@ def get_posicoes(ano, max_rodada):
             })
     return pd.DataFrame(rows)
 
-with st.spinner("Calculando evolucao..."):
+with st.spinner("Calculando evolução..."):
     df_pos = get_posicoes(ano, max_rodada)
 
 df_rel = df_pos[df_pos["time"].isin(rebaixados)]

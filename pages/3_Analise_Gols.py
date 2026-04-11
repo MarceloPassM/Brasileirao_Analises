@@ -25,8 +25,8 @@ anos_disp = sorted(query("SELECT DISTINCT ano FROM jogos")["ano"].tolist())
 with st.sidebar:
     anos_sel = st.multiselect("Temporadas:", anos_disp, default=anos_disp)
 
-st.markdown("# Analise de Gols")
-st.caption("Distribuicao, medias, padroes de casa vs fora e over/under.")
+st.markdown("# Análise de Gols")
+st.caption("Distribuição, médias, padrões de casa vs fora e over/under.")
 
 if not anos_sel:
     st.warning("Selecione pelo menos uma temporada.")
@@ -51,7 +51,7 @@ max_gols   = df["total_gols"].max()
 c1, c2, c3, c4 = st.columns(4)
 for col, label, val in zip(
     [c1, c2, c3, c4],
-    ["Media de Gols/Jogo", "Over 2.5 (%)", "Ambos Marcam (%)", "Maior Placar (total)"],
+    ["Média de Gols/Jogo", "Over 2.5 (%)", "Ambos Marcam (%)", "Maior Placar (total)"],
     [f"{media_gols:.2f}", f"{over25:.1f}%", f"{btts:.1f}%", f"{int(max_gols)} gols"],
 ):
     with col:
@@ -66,7 +66,7 @@ st.markdown("")
 col1, col2 = st.columns(2)
 
 with col1:
-    st.markdown("### Distribuicao de Gols por Jogo")
+    st.markdown("### Distribuição de Gols por Jogo")
     contagem = df["total_gols"].value_counts().sort_index().reset_index()
     contagem.columns = ["Gols", "Jogos"]
     fig_dist = px.bar(
@@ -133,8 +133,8 @@ with col3:
         casa_stats, x="local", y="gols_avg", color="local",
         color_discrete_map={"Casa": "#3b82f6", "Fora": "#ef4444"},
         text=casa_stats["gols_avg"].apply(lambda x: f"{x:.2f}"),
-        labels={"gols_avg": "Media de Gols", "local": ""},
-        title="Media de Gols (Casa vs Fora)",
+        labels={"gols_avg": "Média de Gols", "local": ""},
+        title="Média de Gols (Casa vs Fora)",
     )
     fig_casa.update_traces(textposition="outside")
     fig_casa.update_layout(

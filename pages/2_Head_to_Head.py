@@ -101,9 +101,9 @@ st.markdown("")
 col1, col2 = st.columns(2)
 
 with col1:
-    st.markdown("### Distribuicao de Resultados")
+    st.markdown("### Distribuição de Resultados")
     fig_pie = go.Figure(go.Pie(
-        labels=[f"Vitorias {time1}", "Empates", f"Vitorias {time2}"],
+        labels=[f"Vitórias {time1}", "Empates", f"Vitórias {time2}"],
         values=[v1, emp, v2],
         marker_colors=["#3b82f6", "#64748b", "#ef4444"],
         hole=0.5,
@@ -137,7 +137,7 @@ with col2:
     )
     st.plotly_chart(fig_gols, use_container_width=True)
 
-st.markdown("### Historico de Confrontos")
+st.markdown("### Histórico de Confrontos")
 
 display = df[["ano", "rodada", "mandante", "gols_mandante", "gols_visitante", "visitante", "resultado"]].copy()
 display.columns = ["Ano", "Rodada", "Mandante", "GM", "GV", "Visitante", "Resultado"]
