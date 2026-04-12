@@ -68,7 +68,7 @@ with st.sidebar:
 - Zona de Rebaixamento
     """)
     st.markdown("---")
-    st.caption("Dados simulados · Serie A 2003-2024")
+    st.caption("Dados simulados · Serie A 2003-2025")
 
 
 @st.cache_data
@@ -128,6 +128,7 @@ ZONAS = {
     2022: {"LIB": set(range(1,7)),  "PRE": {7,8},          "SUL": set(range(9,15)),          "REB": set(range(17,21))},
     2023: {"LIB": {1,2,3,4,7,11},   "PRE": {5,6},          "SUL": {8,9,10,12,13,14},         "REB": set(range(17,21))},
     2024: {"LIB": set(range(1,7)),  "PRE": {7,8},          "SUL": set(range(9,15)),          "REB": set(range(17,21))},
+    2025: {"LIB": set(range(1,6)),  "PRE": {6,7},           "SUL": set(range(8,15)),          "REB": set(range(17,21))},
 }
 
 def colorir_posicao(pos, ano):

@@ -8784,3 +8784,383 @@ jogo_id,ano,rodada,mandante,visitante,gols_mandante,gols_visitante,resultado
 8776,2024,38,Fortaleza,Internacional,3,0,V. Mandante
 8780,2024,38,Bragantino,Criciuma,5,1,V. Mandante
 8785,2024,38,Gremio,Corinthians,0,3,V. Visitante
+8786,2025,1,Juventude,EC Vitória,2,0,V. Mandante
+8787,2025,1,Fortaleza,Fluminense,2,0,V. Mandante
+8788,2025,1,Grêmio,Atlético-MG,2,1,V. Mandante
+8789,2025,1,São Paulo,Sport Recife,0,0,Empate
+8790,2025,1,Cruzeiro,Mirassol,2,1,V. Mandante
+8791,2025,1,Flamengo,Internacional,1,1,Empate
+8792,2025,1,Palmeiras,Botafogo,0,0,Empate
+8793,2025,1,Vasco da Gama,Santos,2,1,V. Mandante
+8794,2025,1,Bahia,Corinthians,1,1,Empate
+8795,2025,1,Bragantino,Ceará SC,2,2,Empate
+8796,2025,2,Ceará SC,Grêmio,2,0,V. Mandante
+8797,2025,2,Corinthians,Vasco da Gama,3,0,V. Mandante
+8798,2025,2,Botafogo,Juventude,2,0,V. Mandante
+8799,2025,2,Atlético-MG,São Paulo,0,0,Empate
+8800,2025,2,Fluminense,Bragantino,2,1,V. Mandante
+8801,2025,2,Internacional,Cruzeiro,3,0,V. Mandante
+8802,2025,2,Mirassol,Fortaleza,1,1,Empate
+8803,2025,2,EC Vitória,Flamengo,1,2,V. Visitante
+8804,2025,2,Sport Recife,Palmeiras,1,2,V. Visitante
+8805,2025,2,Santos,Bahia,2,2,Empate
+8806,2025,3,Juventude,Ceará SC,2,1,V. Mandante
+8807,2025,3,Bragantino,Botafogo,1,0,V. Mandante
+8808,2025,3,Palmeiras,Corinthians,2,0,V. Mandante
+8809,2025,3,Vasco da Gama,Sport Recife,3,1,V. Mandante
+8810,2025,3,Bahia,Mirassol,1,1,Empate
+8811,2025,3,Grêmio,Flamengo,0,2,V. Visitante
+8812,2025,3,São Paulo,Cruzeiro,1,1,Empate
+8813,2025,3,Fluminense,Santos,1,0,V. Mandante
+8814,2025,3,Fortaleza,Internacional,0,0,Empate
+8815,2025,3,Atlético-MG,EC Vitória,2,2,Empate
+8816,2025,4,Ceará SC,Vasco da Gama,2,1,V. Mandante
+8817,2025,4,Botafogo,São Paulo,2,2,Empate
+8818,2025,4,Sport Recife,Bragantino,0,1,V. Visitante
+8819,2025,4,Mirassol,Grêmio,4,1,V. Mandante
+8820,2025,4,Internacional,Palmeiras,0,1,V. Visitante
+8821,2025,4,Corinthians,Fluminense,0,2,V. Visitante
+8822,2025,4,Flamengo,Juventude,6,0,V. Mandante
+8823,2025,4,EC Vitória,Fortaleza,2,1,V. Mandante
+8824,2025,4,Santos,Atlético-MG,2,0,V. Mandante
+8825,2025,4,Cruzeiro,Bahia,3,0,V. Mandante
+8826,2025,5,Corinthians,Sport Recife,2,1,V. Mandante
+8827,2025,5,Vasco da Gama,Flamengo,0,0,Empate
+8828,2025,5,Grêmio,Internacional,1,1,Empate
+8829,2025,5,Juventude,Mirassol,2,2,Empate
+8830,2025,5,São Paulo,Santos,2,1,V. Mandante
+8831,2025,5,Atlético-MG,Botafogo,1,0,V. Mandante
+8832,2025,5,Fluminense,EC Vitória,1,1,Empate
+8833,2025,5,Fortaleza,Palmeiras,1,2,V. Visitante
+8834,2025,5,Bragantino,Cruzeiro,1,0,V. Mandante
+8835,2025,5,Bahia,Ceará SC,1,0,V. Mandante
+8836,2025,6,Internacional,Juventude,3,1,V. Mandante
+8837,2025,6,Mirassol,Atlético-MG,2,2,Empate
+8838,2025,6,Ceará SC,São Paulo,1,1,Empate
+8839,2025,6,Sport Recife,Fortaleza,0,0,Empate
+8840,2025,6,Botafogo,Fluminense,2,0,V. Mandante
+8841,2025,6,Flamengo,Corinthians,4,0,V. Mandante
+8842,2025,6,EC Vitória,Grêmio,1,1,Empate
+8843,2025,6,Palmeiras,Bahia,0,1,V. Visitante
+8844,2025,6,Cruzeiro,Vasco da Gama,1,0,V. Mandante
+8845,2025,6,Santos,Bragantino,1,2,V. Visitante
+8846,2025,7,São Paulo,Fortaleza,0,0,Empate
+8847,2025,7,Ceará SC,EC Vitória,1,0,V. Mandante
+8848,2025,7,Corinthians,Internacional,4,2,V. Mandante
+8849,2025,7,Fluminense,Sport Recife,2,1,V. Mandante
+8850,2025,7,Bahia,Botafogo,1,0,V. Mandante
+8851,2025,7,Grêmio,Santos,1,0,V. Mandante
+8852,2025,7,Vasco da Gama,Palmeiras,0,1,V. Visitante
+8853,2025,7,Cruzeiro,Flamengo,2,1,V. Mandante
+8854,2025,7,Bragantino,Mirassol,1,0,V. Mandante
+8855,2025,7,Juventude,Atlético-MG,0,1,V. Visitante
+8856,2025,8,Fortaleza,Juventude,5,0,V. Mandante
+8857,2025,8,EC Vitória,Vasco da Gama,2,1,V. Mandante
+8858,2025,8,Grêmio,Bragantino,1,1,Empate
+8859,2025,8,Mirassol,Corinthians,2,1,V. Mandante
+8860,2025,8,Flamengo,Bahia,1,0,V. Mandante
+8861,2025,8,Sport Recife,Cruzeiro,0,4,V. Visitante
+8862,2025,8,Palmeiras,São Paulo,1,0,V. Mandante
+8863,2025,8,Atlético-MG,Fluminense,3,2,V. Mandante
+8864,2025,8,Botafogo,Internacional,4,0,V. Mandante
+8865,2025,8,Santos,Ceará SC,0,0,Empate
+8866,2025,9,Ceará SC,Sport Recife,2,0,V. Mandante
+8867,2025,9,Vasco da Gama,Fortaleza,3,0,V. Mandante
+8868,2025,9,São Paulo,Grêmio,2,1,V. Mandante
+8869,2025,9,Corinthians,Santos,1,0,V. Mandante
+8870,2025,9,Juventude,Fluminense,1,1,Empate
+8871,2025,9,Bahia,EC Vitória,2,1,V. Mandante
+8872,2025,9,Bragantino,Palmeiras,1,2,V. Visitante
+8873,2025,9,Flamengo,Botafogo,0,0,Empate
+8874,2025,9,Internacional,Mirassol,1,1,Empate
+8875,2025,9,Cruzeiro,Atlético-MG,0,0,Empate
+8876,2025,10,Fluminense,Vasco da Gama,2,1,V. Mandante
+8877,2025,10,São Paulo,Mirassol,0,2,V. Visitante
+8878,2025,10,Atlético-MG,Corinthians,0,0,Empate
+8879,2025,10,Grêmio,Bahia,1,0,V. Mandante
+8880,2025,10,Palmeiras,Flamengo,0,2,V. Visitante
+8881,2025,10,Sport Recife,Internacional,1,1,Empate
+8882,2025,10,EC Vitória,Santos,0,1,V. Visitante
+8883,2025,10,Fortaleza,Cruzeiro,0,2,V. Visitante
+8884,2025,10,Bragantino,Juventude,1,0,V. Mandante
+8885,2025,10,Botafogo,Ceará SC,3,2,V. Mandante
+8886,2025,11,Bahia,São Paulo,2,1,V. Mandante
+8887,2025,11,Vasco da Gama,Bragantino,0,2,V. Visitante
+8888,2025,11,Mirassol,Sport Recife,1,0,V. Mandante
+8889,2025,11,Juventude,Grêmio,0,2,V. Visitante
+8890,2025,11,Santos,Botafogo,0,1,V. Visitante
+8891,2025,11,Flamengo,Fortaleza,5,0,V. Mandante
+8892,2025,11,Ceará SC,Atlético-MG,0,1,V. Visitante
+8893,2025,11,Corinthians,EC Vitória,0,0,Empate
+8894,2025,11,Cruzeiro,Palmeiras,2,1,V. Mandante
+8895,2025,11,Internacional,Fluminense,0,2,V. Visitante
+8896,2025,12,Bragantino,Bahia,0,3,V. Visitante
+8897,2025,12,EC Vitória,Cruzeiro,0,0,Empate
+8898,2025,12,Fortaleza,Santos,2,3,V. Visitante
+8899,2025,12,Grêmio,Corinthians,1,1,Empate
+8900,2025,12,Atlético-MG,Internacional,2,0,V. Mandante
+8901,2025,12,São Paulo,Vasco da Gama,1,3,V. Visitante
+8902,2025,12,Botafogo,Mirassol,3,3,Empate
+8903,2025,12,Palmeiras,Juventude,4,1,V. Mandante
+8904,2025,12,Fluminense,Ceará SC,1,0,V. Mandante
+8905,2025,12,Sport Recife,Flamengo,1,5,V. Visitante
+8906,2025,13,Flamengo,São Paulo,2,0,V. Mandante
+8907,2025,13,Internacional,EC Vitória,1,0,V. Mandante
+8908,2025,13,Vasco da Gama,Botafogo,0,2,V. Visitante
+8909,2025,13,Bahia,Atlético-MG,2,1,V. Mandante
+8910,2025,13,Corinthians,Bragantino,1,2,V. Visitante
+8911,2025,13,Cruzeiro,Grêmio,4,1,V. Mandante
+8912,2025,13,Fortaleza,Ceará SC,0,1,V. Visitante
+8913,2025,13,Juventude,Sport Recife,2,0,V. Mandante
+8914,2025,13,Mirassol,Fluminense,2,1,V. Mandante
+8915,2025,13,Santos,Palmeiras,1,0,V. Mandante
+8916,2025,14,Palmeiras,Mirassol,1,1,Empate
+8917,2025,14,Ceará SC,Corinthians,0,1,V. Visitante
+8918,2025,14,Santos,Flamengo,1,0,V. Mandante
+8919,2025,14,Botafogo,EC Vitória,0,0,Empate
+8920,2025,14,Bragantino,São Paulo,2,2,Empate
+8921,2025,14,Fluminense,Cruzeiro,0,2,V. Visitante
+8922,2025,14,Grêmio,Fortaleza,2,1,V. Mandante
+8923,2025,14,Juventude,Vasco da Gama,2,0,V. Mandante
+8924,2025,14,Atlético-MG,Sport Recife,3,1,V. Mandante
+8925,2025,14,Bahia,Internacional,1,0,V. Mandante
+8926,2025,15,Fortaleza,Bahia,1,1,Empate
+8927,2025,15,Vasco da Gama,Grêmio,1,1,Empate
+8928,2025,15,Mirassol,Santos,3,0,V. Mandante
+8929,2025,15,São Paulo,Corinthians,2,0,V. Mandante
+8930,2025,15,Internacional,Ceará SC,1,0,V. Mandante
+8931,2025,15,EC Vitória,Bragantino,1,0,V. Mandante
+8932,2025,15,Cruzeiro,Juventude,4,0,V. Mandante
+8933,2025,15,Sport Recife,Botafogo,0,1,V. Visitante
+8934,2025,15,Palmeiras,Atlético-MG,3,2,V. Mandante
+8935,2025,15,Flamengo,Fluminense,1,0,V. Mandante
+8936,2025,16,Fluminense,Palmeiras,1,2,V. Visitante
+8937,2025,16,Ceará SC,Mirassol,0,2,V. Visitante
+8938,2025,16,Corinthians,Cruzeiro,0,0,Empate
+8939,2025,16,EC Vitória,Sport Recife,2,2,Empate
+8940,2025,16,Santos,Internacional,1,2,V. Visitante
+8941,2025,16,Bragantino,Flamengo,1,2,V. Visitante
+8942,2025,16,Juventude,São Paulo,0,1,V. Visitante
+8943,2025,16,Vasco da Gama,Bahia,3,1,V. Mandante
+8944,2025,16,Grêmio,Botafogo,1,1,Empate
+8945,2025,16,Atlético-MG,Fortaleza,3,3,Empate
+8946,2025,17,Sport Recife,Santos,2,2,Empate
+8947,2025,17,Botafogo,Corinthians,1,1,Empate
+8948,2025,17,Fortaleza,Bragantino,3,1,V. Mandante
+8949,2025,17,Mirassol,EC Vitória,1,1,Empate
+8950,2025,17,Palmeiras,Grêmio,1,0,V. Mandante
+8951,2025,17,Cruzeiro,Ceará SC,1,2,V. Visitante
+8952,2025,17,São Paulo,Fluminense,3,1,V. Mandante
+8953,2025,17,Bahia,Juventude,3,0,V. Mandante
+8954,2025,17,Internacional,Vasco da Gama,1,1,Empate
+8955,2025,17,Flamengo,Atlético-MG,1,0,V. Mandante
+8956,2025,18,Sport Recife,Bahia,0,0,Empate
+8957,2025,18,Mirassol,Vasco da Gama,3,2,V. Mandante
+8958,2025,18,Fluminense,Grêmio,1,0,V. Mandante
+8959,2025,18,Corinthians,Fortaleza,1,1,Empate
+8960,2025,18,Botafogo,Cruzeiro,0,2,V. Visitante
+8961,2025,18,Ceará SC,Flamengo,1,1,Empate
+8962,2025,18,Atlético-MG,Bragantino,2,1,V. Mandante
+8963,2025,18,EC Vitória,Palmeiras,2,2,Empate
+8964,2025,18,Internacional,São Paulo,1,2,V. Visitante
+8965,2025,18,Santos,Juventude,3,1,V. Mandante
+8966,2025,19,Bragantino,Internacional,1,3,V. Visitante
+8967,2025,19,São Paulo,EC Vitória,2,0,V. Mandante
+8968,2025,19,Flamengo,Mirassol,2,1,V. Mandante
+8969,2025,19,Fortaleza,Botafogo,0,5,V. Visitante
+8970,2025,19,Bahia,Fluminense,3,3,Empate
+8971,2025,19,Palmeiras,Ceará SC,2,1,V. Mandante
+8972,2025,19,Vasco da Gama,Atlético-MG,1,1,Empate
+8973,2025,19,Cruzeiro,Santos,1,2,V. Visitante
+8974,2025,19,Grêmio,Sport Recife,0,1,V. Visitante
+8975,2025,19,Juventude,Corinthians,2,1,V. Mandante
+8976,2025,20,Fluminense,Fortaleza,2,1,V. Mandante
+8977,2025,20,Ceará SC,Bragantino,1,0,V. Mandante
+8978,2025,20,EC Vitória,Juventude,2,2,Empate
+8979,2025,20,Sport Recife,São Paulo,2,2,Empate
+8980,2025,20,Corinthians,Bahia,1,2,V. Visitante
+8981,2025,20,Atlético-MG,Grêmio,1,3,V. Visitante
+8982,2025,20,Santos,Vasco da Gama,0,6,V. Visitante
+8983,2025,20,Internacional,Flamengo,1,3,V. Visitante
+8984,2025,20,Botafogo,Palmeiras,0,1,V. Visitante
+8985,2025,20,Mirassol,Cruzeiro,1,1,Empate
+8986,2025,21,Bragantino,Fluminense,4,2,V. Mandante
+8987,2025,21,Cruzeiro,Internacional,2,1,V. Mandante
+8988,2025,21,Grêmio,Ceará SC,0,0,Empate
+8989,2025,21,Bahia,Santos,2,0,V. Mandante
+8990,2025,21,Vasco da Gama,Corinthians,2,3,V. Visitante
+8991,2025,21,Juventude,Botafogo,1,3,V. Visitante
+8992,2025,21,Fortaleza,Mirassol,0,1,V. Visitante
+8993,2025,21,São Paulo,Atlético-MG,2,0,V. Mandante
+8994,2025,21,Palmeiras,Sport Recife,3,0,V. Mandante
+8995,2025,21,Flamengo,EC Vitória,8,0,V. Mandante
+8996,2025,22,Ceará SC,Juventude,0,1,V. Visitante
+8997,2025,22,Botafogo,Bragantino,4,1,V. Mandante
+8998,2025,22,Cruzeiro,São Paulo,1,0,V. Mandante
+8999,2025,22,Santos,Fluminense,0,0,Empate
+9000,2025,22,Flamengo,Grêmio,1,1,Empate
+9001,2025,22,Corinthians,Palmeiras,1,1,Empate
+9002,2025,22,Mirassol,Bahia,5,1,V. Mandante
+9003,2025,22,EC Vitória,Atlético-MG,1,0,V. Mandante
+9004,2025,22,Sport Recife,Vasco da Gama,2,3,V. Visitante
+9005,2025,22,Internacional,Fortaleza,2,1,V. Mandante
+9006,2025,23,Fortaleza,EC Vitória,2,0,V. Mandante
+9007,2025,23,Grêmio,Mirassol,0,1,V. Visitante
+9008,2025,23,Palmeiras,Internacional,4,1,V. Mandante
+9009,2025,23,Fluminense,Corinthians,0,1,V. Visitante
+9010,2025,23,Bragantino,Sport Recife,1,1,Empate
+9011,2025,23,Atlético-MG,Santos,1,1,Empate
+9012,2025,23,Juventude,Flamengo,0,2,V. Visitante
+9013,2025,23,São Paulo,Botafogo,1,0,V. Mandante
+9014,2025,23,Vasco da Gama,Ceará SC,2,2,Empate
+9015,2025,23,Bahia,Cruzeiro,1,2,V. Visitante
+9016,2025,24,EC Vitória,Fluminense,0,1,V. Visitante
+9017,2025,24,Ceará SC,Bahia,1,1,Empate
+9018,2025,24,Botafogo,Atlético-MG,1,0,V. Mandante
+9019,2025,24,Palmeiras,Fortaleza,4,1,V. Mandante
+9020,2025,24,Mirassol,Juventude,2,0,V. Mandante
+9021,2025,24,Internacional,Grêmio,2,3,V. Visitante
+9022,2025,24,Sport Recife,Corinthians,1,0,V. Mandante
+9023,2025,24,Flamengo,Vasco da Gama,1,1,Empate
+9024,2025,24,Cruzeiro,Bragantino,2,1,V. Mandante
+9025,2025,24,Santos,São Paulo,1,0,V. Mandante
+9026,2025,25,Fortaleza,Sport Recife,1,0,V. Mandante
+9027,2025,25,Vasco da Gama,Cruzeiro,2,0,V. Mandante
+9028,2025,25,Juventude,Internacional,1,1,Empate
+9029,2025,25,Atlético-MG,Mirassol,1,0,V. Mandante
+9030,2025,25,Grêmio,EC Vitória,3,1,V. Mandante
+9031,2025,25,Bahia,Palmeiras,1,0,V. Mandante
+9032,2025,25,Fluminense,Botafogo,2,0,V. Mandante
+9033,2025,25,Bragantino,Santos,2,2,Empate
+9034,2025,25,Corinthians,Flamengo,1,2,V. Visitante
+9035,2025,25,São Paulo,Ceará SC,0,1,V. Visitante
+9036,2025,26,Atlético-MG,Juventude,0,0,Empate
+9037,2025,26,Palmeiras,Vasco da Gama,3,0,V. Mandante
+9038,2025,26,Mirassol,Bragantino,1,1,Empate
+9039,2025,26,Sport Recife,Fluminense,2,2,Empate
+9040,2025,26,Internacional,Corinthians,1,1,Empate
+9041,2025,26,Santos,Grêmio,1,1,Empate
+9042,2025,26,Botafogo,Bahia,2,1,V. Mandante
+9043,2025,26,EC Vitória,Ceará SC,1,0,V. Mandante
+9044,2025,26,Fortaleza,São Paulo,0,2,V. Visitante
+9045,2025,26,Flamengo,Cruzeiro,0,0,Empate
+9046,2025,27,Internacional,Botafogo,2,0,V. Mandante
+9047,2025,27,Fluminense,Atlético-MG,3,0,V. Mandante
+9048,2025,27,Bragantino,Grêmio,1,0,V. Mandante
+9049,2025,27,Corinthians,Mirassol,3,0,V. Mandante
+9050,2025,27,Vasco da Gama,EC Vitória,4,3,V. Mandante
+9051,2025,27,São Paulo,Palmeiras,2,3,V. Visitante
+9052,2025,27,Bahia,Flamengo,1,0,V. Mandante
+9053,2025,27,Juventude,Fortaleza,1,2,V. Visitante
+9054,2025,27,Ceará SC,Santos,3,0,V. Mandante
+9055,2025,27,Cruzeiro,Sport Recife,1,1,Empate
+9056,2025,28,Palmeiras,Bragantino,5,1,V. Mandante
+9057,2025,28,Botafogo,Flamengo,0,3,V. Visitante
+9058,2025,28,Mirassol,Internacional,3,1,V. Mandante
+9059,2025,28,Sport Recife,Ceará SC,1,1,Empate
+9060,2025,28,Santos,Corinthians,3,1,V. Mandante
+9061,2025,28,Fortaleza,Vasco da Gama,0,2,V. Visitante
+9062,2025,28,Atlético-MG,Cruzeiro,1,1,Empate
+9063,2025,28,Grêmio,São Paulo,2,0,V. Mandante
+9064,2025,28,EC Vitória,Bahia,2,1,V. Mandante
+9065,2025,28,Fluminense,Juventude,1,0,V. Mandante
+9066,2025,29,Corinthians,Atlético-MG,1,0,V. Mandante
+9067,2025,29,Cruzeiro,Fortaleza,1,0,V. Mandante
+9068,2025,29,Flamengo,Palmeiras,3,2,V. Mandante
+9069,2025,29,Ceará SC,Botafogo,0,2,V. Visitante
+9070,2025,29,Mirassol,São Paulo,3,0,V. Mandante
+9071,2025,29,Internacional,Sport Recife,2,0,V. Mandante
+9072,2025,29,Bahia,Grêmio,4,0,V. Mandante
+9073,2025,29,Juventude,Bragantino,1,0,V. Mandante
+9074,2025,29,Vasco da Gama,Fluminense,2,0,V. Mandante
+9075,2025,29,Santos,EC Vitória,0,1,V. Visitante
+9076,2025,30,EC Vitória,Corinthians,0,1,V. Visitante
+9077,2025,30,Atlético-MG,Ceará SC,1,0,V. Mandante
+9078,2025,30,Fluminense,Internacional,1,0,V. Mandante
+9079,2025,30,Sport Recife,Mirassol,1,2,V. Visitante
+9080,2025,30,Fortaleza,Flamengo,1,0,V. Mandante
+9081,2025,30,São Paulo,Bahia,2,0,V. Mandante
+9082,2025,30,Grêmio,Juventude,3,1,V. Mandante
+9083,2025,30,Botafogo,Santos,2,2,Empate
+9084,2025,30,Bragantino,Vasco da Gama,0,3,V. Visitante
+9085,2025,30,Palmeiras,Cruzeiro,0,0,Empate
+9086,2025,31,Cruzeiro,EC Vitória,3,1,V. Mandante
+9087,2025,31,Santos,Fortaleza,1,1,Empate
+9088,2025,31,Mirassol,Botafogo,0,0,Empate
+9089,2025,31,Flamengo,Sport Recife,3,0,V. Mandante
+9090,2025,31,Ceará SC,Fluminense,2,0,V. Mandante
+9091,2025,31,Bahia,Bragantino,2,1,V. Mandante
+9092,2025,31,Corinthians,Grêmio,2,0,V. Mandante
+9093,2025,31,Juventude,Palmeiras,0,2,V. Visitante
+9094,2025,31,Internacional,Atlético-MG,0,0,Empate
+9095,2025,31,Vasco da Gama,São Paulo,0,2,V. Visitante
+9096,2025,32,Sport Recife,Juventude,0,2,V. Visitante
+9097,2025,32,EC Vitória,Internacional,1,0,V. Mandante
+9098,2025,32,Bragantino,Corinthians,2,1,V. Mandante
+9099,2025,32,Botafogo,Vasco da Gama,3,0,V. Mandante
+9100,2025,32,Grêmio,Cruzeiro,0,1,V. Visitante
+9101,2025,32,Atlético-MG,Bahia,3,0,V. Mandante
+9102,2025,32,São Paulo,Flamengo,2,2,Empate
+9103,2025,32,Fluminense,Mirassol,1,0,V. Mandante
+9104,2025,32,Ceará SC,Fortaleza,1,1,Empate
+9105,2025,32,Palmeiras,Santos,2,0,V. Mandante
+9106,2025,33,Sport Recife,Atlético-MG,2,4,V. Visitante
+9107,2025,33,Vasco da Gama,Juventude,1,3,V. Visitante
+9108,2025,33,Internacional,Bahia,2,2,Empate
+9109,2025,33,São Paulo,Bragantino,0,1,V. Visitante
+9110,2025,33,EC Vitória,Botafogo,0,0,Empate
+9111,2025,33,Cruzeiro,Fluminense,0,0,Empate
+9112,2025,33,Corinthians,Ceará SC,0,1,V. Visitante
+9113,2025,33,Flamengo,Santos,3,2,V. Mandante
+9114,2025,33,Fortaleza,Grêmio,2,2,Empate
+9115,2025,33,Mirassol,Palmeiras,2,1,V. Mandante
+9116,2025,34,Botafogo,Sport Recife,3,2,V. Mandante
+9117,2025,34,Fluminense,Flamengo,2,1,V. Mandante
+9118,2025,34,Santos,Mirassol,1,1,Empate
+9119,2025,34,Grêmio,Vasco da Gama,2,0,V. Mandante
+9120,2025,34,Juventude,Cruzeiro,3,3,Empate
+9121,2025,34,Bahia,Fortaleza,2,3,V. Visitante
+9122,2025,34,Corinthians,São Paulo,3,1,V. Mandante
+9123,2025,34,Ceará SC,Internacional,1,2,V. Visitante
+9124,2025,34,Bragantino,EC Vitória,4,0,V. Mandante
+9125,2025,34,Atlético-MG,Palmeiras,0,3,V. Visitante
+9126,2025,35,Botafogo,Grêmio,3,2,V. Mandante
+9127,2025,35,Palmeiras,Fluminense,0,0,Empate
+9128,2025,35,Flamengo,Bragantino,3,0,V. Mandante
+9129,2025,35,Bahia,Vasco da Gama,1,0,V. Mandante
+9130,2025,35,São Paulo,Juventude,2,1,V. Mandante
+9131,2025,35,Sport Recife,EC Vitória,1,3,V. Visitante
+9132,2025,35,Cruzeiro,Corinthians,3,0,V. Mandante
+9133,2025,35,Mirassol,Ceará SC,3,0,V. Mandante
+9134,2025,35,Internacional,Santos,1,1,Empate
+9135,2025,35,Fortaleza,Atlético-MG,1,0,V. Mandante
+9136,2025,36,Atlético-MG,Flamengo,1,1,Empate
+9137,2025,36,Grêmio,Palmeiras,3,2,V. Mandante
+9138,2025,36,Bragantino,Fortaleza,0,1,V. Visitante
+9139,2025,36,Fluminense,São Paulo,6,0,V. Mandante
+9140,2025,36,Juventude,Bahia,1,1,Empate
+9141,2025,36,Vasco da Gama,Internacional,5,1,V. Mandante
+9142,2025,36,Santos,Sport Recife,3,0,V. Mandante
+9143,2025,36,EC Vitória,Mirassol,2,0,V. Mandante
+9144,2025,36,Ceará SC,Cruzeiro,1,1,Empate
+9145,2025,36,Corinthians,Botafogo,2,2,Empate
+9146,2025,37,Bragantino,Atlético-MG,2,0,V. Mandante
+9147,2025,37,Palmeiras,EC Vitória,0,0,Empate
+9148,2025,37,Vasco da Gama,Mirassol,0,2,V. Visitante
+9149,2025,37,Grêmio,Fluminense,1,2,V. Visitante
+9150,2025,37,Fortaleza,Corinthians,2,1,V. Mandante
+9151,2025,37,Juventude,Santos,0,3,V. Visitante
+9152,2025,37,São Paulo,Internacional,3,0,V. Mandante
+9153,2025,37,Bahia,Sport Recife,2,0,V. Mandante
+9154,2025,37,Flamengo,Ceará SC,1,0,V. Mandante
+9155,2025,37,Cruzeiro,Botafogo,2,2,Empate
+9156,2025,38,Mirassol,Flamengo,3,3,Empate
+9157,2025,38,Fluminense,Bahia,2,0,V. Mandante
+9158,2025,38,Ceará SC,Palmeiras,1,3,V. Visitante
+9159,2025,38,Corinthians,Juventude,1,1,Empate
+9160,2025,38,Santos,Cruzeiro,3,0,V. Mandante
+9161,2025,38,Sport Recife,Grêmio,0,4,V. Visitante
+9162,2025,38,EC Vitória,São Paulo,1,0,V. Mandante
+9163,2025,38,Botafogo,Fortaleza,4,2,V. Mandante
+9164,2025,38,Atlético-MG,Vasco da Gama,5,0,V. Mandante
+9165,2025,38,Internacional,Bragantino,3,1,V. Mandante
